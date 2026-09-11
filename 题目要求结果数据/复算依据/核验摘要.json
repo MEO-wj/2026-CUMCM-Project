@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "scope": "四个交付脚本实际求解、未舍入来源、四份完整Excel、论文表1到表6及报告主表的一致性核验",
+  "scope": "四个交付脚本实际求解、未舍入来源、四份完整Excel、论文表1到表6、第四问半径辅助表及报告主表的一致性核验",
   "workbooks": {
     "result1.xlsx": {
       "sheets": [
@@ -67,6 +67,24 @@
     "end_time_h": {"表5": 57.4741, "表6": 51.0886},
     "end_time_storage": "数值型小时数，自定义格式同时显示烘干结束时间及四位数值",
     "visual_check": "保存后的实际工作簿重新导入，六张完整表均已渲染检查，无裁切或溢出"
+  },
+  "q4_radius_table": {
+    "status": "PASS",
+    "workbook": "问题4半径/问题4半径.xlsx",
+    "export_script": "导出问题4半径.py",
+    "columns": ["时间/s", "时间/h", "实际半径/cm"],
+    "data_rows": 3067,
+    "numeric_cells_checked": 9201,
+    "source": "result4_未舍入.npz中的time_s及R_m，半径由米换算为厘米",
+    "times_match_result4": true,
+    "all_values_match_unrounded_source": true,
+    "radii_match_attachment2_SI_PCHIP": true,
+    "end_time_s": 183918.96,
+    "end_time_h": 51.0886,
+    "end_radius_cm": 1.2,
+    "number_format": "0.0000",
+    "rounding_boundary_check": "56700s处以原始十进制输入独立有理数重算PCHIP，半径为24439/20000cm，即1.22195cm，四位显示1.2220；与统一源导出一致",
+    "visual_check": "保存后的工作簿重新导入，首尾数据、三列表头及四位显示无裁切"
   },
   "model_boundary": "采用报告声明的径向有效模型；一致性通过不等于全部物理假设均无误差。"
 }
