@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "scope": "四个交付脚本实际求解、未舍入来源、四份完整Excel、论文表1到表6及报告主表的一致性核验",
+  "workbooks": {
+    "result1.xlsx": {
+      "sheets": [
+        "温度",
+        "水分浓度"
+      ],
+      "data_rows_per_sheet": 1801,
+      "columns": 22,
+      "stop_time_s": 1800.0,
+      "critical_time_h": null
+    },
+    "result2.xlsx": {
+      "sheets": [
+        "温度",
+        "水分浓度"
+      ],
+      "data_rows_per_sheet": 206908,
+      "columns": 22,
+      "stop_time_s": 206906.76,
+      "critical_time_h": 57.4739972206516
+    },
+    "result3.xlsx": {
+      "sheets": [
+        "Sheet1"
+      ],
+      "data_rows_per_sheet": 3450,
+      "columns": 22,
+      "stop_time_s": 206906.76,
+      "critical_time_h": 57.4739972206516
+    },
+    "result4.xlsx": {
+      "sheets": [
+        "Sheet1"
+      ],
+      "data_rows_per_sheet": 3067,
+      "columns": 22,
+      "stop_time_s": 183918.96000000002,
+      "critical_time_h": 51.0885016441366
+    }
+  },
+  "numeric_data_and_time_cells_checked": 9306469,
+  "numeric_radius_headers_checked": 125,
+  "q4_outside_domain_blanks_checked": 20101,
+  "number_format": "0.0000",
+  "raw_and_direct_arrays_compared": 56,
+  "q2_q3_equal_same_time_array_kinds": 9,
+  "report_field_values_compared": 216,
+  "report_time_values_compared": 45,
+  "report_radius_values_compared": 9,
+  "report_outside_markers_compared": 18,
+  "visual_check": "实际XML取出的首尾范围已核对四位显示、表头、时间及表面空白；完整值由流式XML独立扫描核验",
+  "paper_tables": {
+    "status": "PASS",
+    "workbook": "表1到表6/表1到表6.xlsx",
+    "export_script": "整理表1到表6.py",
+    "sheets": ["表1", "表2", "表3", "表4", "表5", "表6"],
+    "data_rows": [7, 7, 6, 6, 10, 9],
+    "numeric_result_values_checked": 216,
+    "numeric_time_values_checked": 45,
+    "numeric_radius_headers_checked": 28,
+    "source_and_report_values": "全部逐项一致",
+    "original_problem_layout": "标题、两层合并表头、s/h与cm单位、规定时刻、测点、表面列及结束行通过",
+    "table6_radii_cm": [0, 0.5, 1, "药材表面"],
+    "end_time_h": {"表5": 57.4741, "表6": 51.0886},
+    "end_time_storage": "数值型小时数，自定义格式同时显示烘干结束时间及四位数值",
+    "visual_check": "保存后的实际工作簿重新导入，六张完整表均已渲染检查，无裁切或溢出"
+  },
+  "model_boundary": "采用报告声明的径向有效模型；一致性通过不等于全部物理假设均无误差。"
+}
