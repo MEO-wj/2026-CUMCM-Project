@@ -1,0 +1,209 @@
+{
+  "_meta": {
+    "problem_id": "A",
+    "problem_title": "2026 高教社杯全国大学生数学建模竞赛 A 题 药材的烘干问题",
+    "source_pages": 4,
+    "source_files": [
+      {
+        "path": "user_data/A题_extracted.txt",
+        "sha256": "a16c500e2a58f41c46f4af194d0c86d774abc054ce6418c305d099a45abe3c12",
+        "note": "Vision OCR 提取原文，4 页全覆盖；本 facts 所有数值一字不差取自该文件"
+      }
+    ],
+    "n_subproblems": 4,
+    "note": "单位换算（cm→m、h→s、℃→K）只在 PARAMS_RAW.md 用文字说明，不写入本文件数值字段，避免与 OCR 客观比对冲突"
+  },
+
+  "geometry": {
+    "shape": "圆柱形（近似）",
+    "length_cm": 25,
+    "radius_cm": 2,
+    "raw_quote": "某中药材形状大致呈圆柱形，长为 25 cm，半径为 2 cm",
+    "source": "第1页 问题1"
+  },
+
+  "initial_state": {
+    "temperature_degC": 28,
+    "moisture_dry_basis_kg_per_kg": 2.55,
+    "uniform": true,
+    "raw_quote": "烘干开始时，药材的温度为 28℃，水分浓度（即干基含水率）为 2.55 kg/kg",
+    "source": "第1页 问题1"
+  },
+
+  "appendix2_constant_properties": {
+    "applies_to": "问题1（预热平衡阶段，常物性）",
+    "density_kg_per_m3": 820,
+    "specific_heat_J_per_kgK": 2600,
+    "thermal_conductivity_W_per_mK": 0.36,
+    "convective_heat_transfer_coeff_W_per_m2K": 25,
+    "convective_mass_transfer_coeff_m_per_s": {
+      "mantissa": 8,
+      "exponent": "-7",
+      "value_expr": "8e-7"
+    },
+    "diffusivity_formula": {
+      "expr": "D = 7e-9 * exp(-0.89 / C)",
+      "prefactor_mantissa": 7,
+      "prefactor_exponent": "-9",
+      "activation_coeff": 0.89,
+      "depends_on": ["C"],
+      "no_temperature_term": true
+    },
+    "raw_quote": "密度为 820 kg/m³、比热容为 2600 J/(kg·K)、热传导系数为 0.36 W/(m·K)，对流换热系数为 25 W/(m²·K)，对流传质系数为 8×10⁻⁷ m/s；水分浓度扩散系数的经验公式为 D = 7 × 10^{-9} e^{-0.89/C}",
+    "source": "第3页 附录2"
+  },
+
+  "appendix3_variable_properties": {
+    "applies_to": "问题2、问题3（预热+恒温全过程，变物性）",
+    "density": {"expr": "rho = 650 + 128*C", "a": 650, "b": 128},
+    "specific_heat": {"expr": "cp = 1450 + 2736*C/(C+1)", "a": 1450, "b": 2736},
+    "thermal_conductivity": {"expr": "k = 0.21 + 0.38*C/(C+1)", "a": 0.21, "b": 0.38},
+    "diffusivity_formula": {
+      "expr": "D = 2.4e-3 * exp(-0.45/C) * exp(-3850/T)",
+      "prefactor_mantissa": 2.4,
+      "prefactor_exponent": "-3",
+      "moisture_coeff": 0.45,
+      "arrhenius_coeff": 3850,
+      "temperature_unit": "K",
+      "depends_on": ["C", "T"]
+    },
+    "raw_quote": "ρ = 650 + 128C；c_p = 1450 + 2736·C/(C+1)；k = 0.21 + 0.38·C/(C+1)；D = 2.4×10^{-3} e^{-0.45/C} e^{-3850/T}",
+    "source": "第4页 附录3"
+  },
+
+  "appendix4_variable_properties": {
+    "applies_to": "问题4（考虑尺寸收缩，变物性 + 动边界）",
+    "density": {"expr": "rho = 760 + 90*C", "a": 760, "b": 90},
+    "specific_heat": {"expr": "cp = 1850 + 2150*C/(C+1)", "a": 1850, "b": 2150},
+    "thermal_conductivity": {"expr": "k = 0.12 + 0.20*C/(C+1)", "a": 0.12, "b": 0.2},
+    "diffusivity_formula": {
+      "expr": "D = 4.2e-4 * exp(-0.30/C) * exp(-3850/T)",
+      "prefactor_mantissa": 4.2,
+      "prefactor_exponent": "-4",
+      "moisture_coeff": 0.3,
+      "arrhenius_coeff": 3850,
+      "temperature_unit": "K",
+      "depends_on": ["C", "T"]
+    },
+    "raw_quote": "ρ = 760 + 90C；c_p = 1850 + 2150·C/(C+1)；k = 0.12 + 0.20·C/(C+1)；D = 4.2×10^{-4} e^{-0.30/C} e^{-3850/T}",
+    "source": "第4页 附录4"
+  },
+
+  "drying_criterion": {
+    "threshold_kg_per_kg": 0.15,
+    "scope": "药材各处（空间处处成立，取径向最大含水率判定）",
+    "raw_quote": "按照烘干要求，药材各处的水分浓度应低于 0.15 kg/kg，请确定药材烘干所需要的时间（单位：h）",
+    "source": "第2页 问题3"
+  },
+
+  "output_specs": {
+    "decimals": 4,
+    "problem1": {
+      "paper_table_times_s": [100, 300, 600, 900, 1200, 1500, 1800],
+      "paper_table_radii_cm": [0, 0.5, 1, 1.5, 2],
+      "file": "result1.xlsx",
+      "sheets": ["温度", "水分浓度"],
+      "full_time_step_s": 1,
+      "full_time_span_s": 1800,
+      "full_radial_step_cm": 0.1,
+      "raw_quote": "将 1800 s 内每隔 1 s、到药材中心距离每隔 0.1 cm 的完整结果保存到文件 result1.xlsx 中",
+      "source": "第1页 问题1"
+    },
+    "problem2": {
+      "paper_table_times_h": [0.5, 1.0, 1.5, 2.0, 2.5, 3.0],
+      "paper_table_radii_cm": [0, 0.5, 1, 1.5, 2],
+      "file": "result2.xlsx",
+      "sheets": ["温度", "水分浓度"],
+      "full_time_step_s": 1,
+      "full_time_span_h": 3,
+      "full_radial_step_cm": 0.1,
+      "raw_quote": "在论文中按表 3 和表 4 的格式分别给出 3 h 内每隔 0.5 h、到药材中心距离 0、0.5、1、1.5、2 cm 处的结果，并将每隔 1 s、到药材中心距离每隔 0.1 cm 的完整结果保存到文件 result2.xlsx",
+      "source": "第2页 问题2"
+    },
+    "problem3": {
+      "paper_table_time_step_h": 6,
+      "paper_table_radial_step_cm": 0.5,
+      "file": "result3.xlsx",
+      "sheets": ["Sheet1"],
+      "full_time_step_s": 60,
+      "full_radial_step_cm": 0.1,
+      "raw_quote": "按表 5 的格式给出每隔 6 h、到药材中心距离每隔 0.5 cm 的水分浓度，并将药材内部水分浓度每隔 60 s、到药材中心距离每隔 0.1 cm 的完整结果保存到文件 result3.xlsx",
+      "source": "第2页 问题3"
+    },
+    "problem4": {
+      "paper_table_time_step_h": 6,
+      "paper_table_radial_step_cm": 0.5,
+      "paper_table_last_column": "药材表面",
+      "file": "result4.xlsx",
+      "sheets": ["Sheet1"],
+      "full_time_step_s": 60,
+      "full_radial_step_cm": 0.1,
+      "raw_quote": "给出每隔 6 h、到药材中心距离每隔 0.5 cm 的水分浓度，并将药材内部水分浓度每隔 60 s 时间、0.1 cm 距离的完整结果保存到文件 result4.xlsx",
+      "source": "第3页 问题4"
+    }
+  },
+
+  "attachments": {
+    "附件1": {
+      "content": "烘干初期各时间点烘房的温度与水分浓度",
+      "columns": ["时间(s)", "温度(℃)", "水分浓度(kg/kg)"],
+      "role": "对流边界驱动 T_air(t), C_air(t)",
+      "source": "第3页 附录1"
+    },
+    "附件2": {
+      "content": "烘干过程中各时间点药材的半径",
+      "columns": ["时间(s)", "半径(cm)"],
+      "role": "问题4 动边界 R(t)",
+      "source": "第3页 附录1"
+    },
+    "附件3": {
+      "content": "结果文件夹，包括 result1.xlsx-result4.xlsx 共 4 个模板文件；A 列为时间，第 1 行为到药材中心的距离",
+      "source": "第3页 附录1"
+    }
+  },
+
+  "rules": [
+    {
+      "id": "R1",
+      "statement": "问题1 必须用附录2 常物性（820 / 2600 / 0.36 / 25 / 8e-7）且 D 只依赖 C（无 e^{-3850/T} 项）",
+      "machine_check": "constraint",
+      "source": "第3页 附录2"
+    },
+    {
+      "id": "R2",
+      "statement": "问题2、问题3 必须用附录3 变物性与 D(C,T)，Arrhenius 项中 T 取开尔文",
+      "machine_check": "constraint",
+      "source": "第4页 附录3"
+    },
+    {
+      "id": "R3",
+      "statement": "问题4 必须换用附录4 物性与 D(C,T)，且半径随附件2 收缩（动边界），不得沿用固定半径",
+      "machine_check": "constraint",
+      "source": "第4页 附录4 + 第2页 问题4"
+    },
+    {
+      "id": "R4",
+      "statement": "烘干终点为药材各处水分浓度均低于 0.15 kg/kg 首次成立的时刻（取径向最大值判定，非表面值、非平均值）",
+      "machine_check": "constraint",
+      "source": "第2页 问题3"
+    },
+    {
+      "id": "R5",
+      "statement": "result1/result2 为 1 s 步长、result3/result4 为 60 s 步长，径向步长均 0.1 cm，所有导出数值保留四位小数",
+      "machine_check": "delivery",
+      "source": "第1-3页 各问输出规格 + 附录1"
+    },
+    {
+      "id": "R6",
+      "statement": "result1/result2 需含「温度」「水分浓度」两个工作表；result3/result4 单表仅存水分浓度",
+      "machine_check": "delivery",
+      "source": "第3页 附录1 附件3 说明"
+    },
+    {
+      "id": "R7",
+      "statement": "result4 表头末列为「药材表面」，随收缩变化；超出当前半径的径向位置无物理意义",
+      "machine_check": "delivery",
+      "source": "第3页 表6 + 附录1"
+    }
+  ]
+}
