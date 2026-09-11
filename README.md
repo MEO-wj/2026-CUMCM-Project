@@ -19,6 +19,7 @@
 2026-CUMCM-Project/
 ├─ docs/                                      # 官方题目、附件和格式规范，只读
 │  ├─ 主攻题-A题.pdf
+│  ├─ 本地A题资料/                            # 完整导入的桌面材料：批注题目、两篇文献、附件
 │  └─ CUMCM2026赛题原题/A题/
 │     ├─ A题.pdf
 │     └─ 附件/
@@ -52,6 +53,13 @@
 ```
 
 目录已经初始化。`docs/` 中的官方文件是题目资料的唯一可信来源；`data/`、`code/`、`scripts/`、`results/`、`paper/` 和 `tests/` 是后续协作的工作区。
+
+`docs/本地A题资料/` 完整保留本次导入目录的层级、文件名和内容，共 11 个文件：带标注的 `A题.pdf`、两篇参考文献、两份数据附件、四份结果模板，以及两个原有的 `.DS_Store` 文件。其中六份 Excel 与已有官方附件内容一致；带标注的题目 PDF 与官方原版分别保留。新增资料仅供阅读与后续研究，尚未产生求解结果。
+
+两篇参考文献分别为：
+
+- [A Fourier feature-embedded physics-informed neural network framework to investigate coupled heat and mass transfer characteristics of plant tissues during drying](docs/本地A题资料/1-s2.0-S0017931026000578-main.pdf)，*International Journal of Heat and Mass Transfer* 259 (2026), 128381，DOI：`10.1016/j.ijheatmasstransfer.2026.128381`。
+- [SDD-PINN: Physics-informed neural network for single droplet drying](docs/本地A题资料/1-s2.0-S2772508126000190-main.pdf)，*Digital Chemical Engineering* 19 (2026), 100306，DOI：`10.1016/j.dche.2026.100306`。
 
 ## 目录职责
 
@@ -351,6 +359,8 @@ docs: update problem 3 threshold definition
 
 ## 参考资料
 
+- [本次导入的完整 A 题材料](docs/本地A题资料/)
+- [带标注的 A 题文档](docs/本地A题资料/A题.pdf)
 - [A 题原题](docs/CUMCM2026赛题原题/A题/A题.pdf)
 - [当前使用的 A 题文档](docs/主攻题-A题.pdf)
 - [附件 1：烘房环境数据](docs/CUMCM2026赛题原题/A题/附件/附件1.xlsx)
