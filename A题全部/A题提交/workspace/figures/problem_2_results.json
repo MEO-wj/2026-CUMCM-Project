@@ -1,0 +1,31 @@
+{
+  "problem": 2,
+  "p2_T_3h_5pt": [
+    49.8495,
+    49.8554,
+    49.8746,
+    49.9101,
+    49.9664
+  ],
+  "p2_C_3h_5pt": [
+    1.7662,
+    1.7165,
+    1.5701,
+    1.3331,
+    1.0078
+  ],
+  "p2_conservation_residual": 4.798232379232173e-16,
+  "p2_picard_residual_max": 9.99733629214461e-12,
+  "p2_picard_trace": [
+    0.0021366445933899136,
+    9.531636493420592e-07,
+    3.1729729954577124e-11,
+    1.0658141036401503e-14
+  ],
+  "p2_picard_n_iter": 4,
+  "p2_picard_monotone": true,
+  "p2_k_radial_dispersion": 0.11881588867510169,
+  "p2_surface_cv_residual": 3.368240706560822e-13,
+  "p2_n_rows": 10801,
+  "p2_discrete_measure_sum_error": 0.0
+}

@@ -1,0 +1,57 @@
+\section{模型假设}
+
+结合题面已给条件，仅对题面未完全规定、而建模必须补足的现实简化作如下假设：
+
+\begin{enumerate}
+\item[(1)] \textbf{一维轴对称}。因 $L=25\,\mathrm{cm}\gg R_0=2\,\mathrm{cm}$，端面散失相对侧面
+      可忽略，温度与含水率只沿半径 $r$ 变化，$\partial_\theta(\cdot)=\partial_z(\cdot)=0$。
+      这使三维问题降为一维，保留了径向输运这一主导机制。
+\item[(2)] \textbf{连续介质与局部平衡}。药材视为均质各向同性多孔介质，同一微元内固相、
+      液态水与热量处于局部热力学平衡，可用单一温度 $T$ 与干基含水率 $C$ 描述其状态。
+\item[(3)] \textbf{Fick 型扩散与 Fourier 型导热}。内部水分迁移服从以 $C$ 为势的 Fick 第二定律，
+      热量传递服从 Fourier 定律；扩散系数 $D$ 与导热系数 $k$ 按各附录设定随 $C,T$ 变化。
+\item[(4)] \textbf{对流型表面边界}。表面失水与散热速率正比于表面与热风之间的含水率差、温差，
+      即 Robin 边界，传质、传热系数 $h_m,h$ 取为常数；这刻画了外部对流阻力的作用\upcite{giner2009}。
+\item[(5)] \textbf{潜热不单列}。题面未给蒸发潜热 $L$，基准模型不显式扣除表面蒸发吸热，
+      将其影响留待灵敏度分析定量评估（见第\ref{sec:sens}节），以避免引入未给定参数。
+\item[(6)] \textbf{纯径向均匀收缩}（仅问题四）。附件2 的体积收缩按半径各向同性缩小处理，
+      干物质总量守恒，收缩速率由附件2 数据经单调插值确定，不额外假设收缩动力学。
+\end{enumerate}
+
+\section{符号说明}
+
+下表收录跨章节反复使用的核心符号，一次性下标与临时派生量在首次出现处就地说明。
+
+\begin{center}
+\small
+\begin{longtable}{cll}
+\toprule
+符号 & 含义 & 单位 \\
+\midrule
+\endfirsthead
+\toprule
+符号 & 含义 & 单位 \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+$r,\ t$ & 径向坐标、时间 & $\mathrm{m},\ \mathrm{s}$ \\
+$R_0,\ R(t)$ & 初始半径、$t$ 时刻半径（问题四移动边界） & $\mathrm{m}$ \\
+$T,\ T_{\mathrm{air}}$ & 药材温度、热风温度 & $^{\circ}\mathrm{C}$ \\
+$C,\ C_{\mathrm{air}}$ & 干基含水率、空气等效含水率 & 1 \\
+$C_0,\ C_{\mathrm{th}}$ & 初始含水率、安全含水率阈值 & 1 \\
+$C_s,\ T_s$ & 表面含水率、表面温度 & 1,\ $^{\circ}\mathrm{C}$ \\
+$\rho,\ c_p$ & 湿基密度、比热容 & $\mathrm{kg\,m^{-3}},\ \mathrm{J\,kg^{-1}K^{-1}}$ \\
+$k$ & 导热系数 & $\mathrm{W\,m^{-1}K^{-1}}$ \\
+$D$ & 水分扩散系数 & $\mathrm{m^2\,s^{-1}}$ \\
+$h,\ h_m$ & 对流换热系数、对流传质系数 & $\mathrm{W\,m^{-2}K^{-1}},\ \mathrm{m\,s^{-1}}$ \\
+$T_K$ & 绝对温度 $T+273.15$ & $\mathrm{K}$ \\
+$\alpha$ & 热扩散率 $k/(\rho c_p)$ & $\mathrm{m^2\,s^{-1}}$ \\
+$\mathrm{Bi}_m$ & 传质毕奥数 $h_m R_0/D$ & 1 \\
+$\Phi(C)$ & 扩散系数的 Kirchhoff 积分势 & $\mathrm{m^2\,s^{-1}}$ \\
+$\xi$ & 固定域无量纲坐标 $r/R(t)$ & 1 \\
+$\sigma$ & 干基质量不变量 $\rho_s R^2$ & $\mathrm{kg\,m^{-1}}$ \\
+$w_j$ & 控制体柱坐标测度权 & 1 \\
+$t^{*}$ & 内部各点首次全部达标的时刻 & $\mathrm{h}$ \\
+\end{longtable}
+\end{center}

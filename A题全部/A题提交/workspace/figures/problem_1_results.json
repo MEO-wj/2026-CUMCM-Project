@@ -1,0 +1,27 @@
+{
+  "problem": 1,
+  "p1_T_1800_5pt": [
+    33.5764,
+    33.773,
+    34.3651,
+    35.3629,
+    36.786
+  ],
+  "p1_C_1800_5pt": [
+    2.55,
+    2.5496,
+    2.5376,
+    2.3763,
+    1.5125
+  ],
+  "p1_conservation_residual": 5.611277714265665e-16,
+  "p1_picard_residual_max": 9.940492873283802e-12,
+  "p1_surface_cv_residual": 4.102339723757854e-14,
+  "p1_dD_dT_rel_perturb": 0.0,
+  "p1_D_at_C0": 4.937655094173937e-09,
+  "p1_bessel_rel_err_l2": 0.0002837403043710143,
+  "p1_bessel_max_abs_err": 0.0009802663528100108,
+  "p1_bdf_cross_check_max_abs_diff": 0.0005768195385660313,
+  "p1_n_rows": 1801,
+  "p1_discrete_measure_sum_error": 0.0
+}

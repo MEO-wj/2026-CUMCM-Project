@@ -1,0 +1,2 @@
+fig_roadmap	round1	PASS	drawio_vision_check.pyc	2026-09-11
+fig_scene	round2	PASS	drawio_vision_check.pyc	2026-09-11

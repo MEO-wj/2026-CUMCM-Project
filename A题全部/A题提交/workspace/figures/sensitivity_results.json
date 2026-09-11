@@ -1,0 +1,15 @@
+{
+  "module": "sensitivity",
+  "p3_hold_h": 57.262062,
+  "p3_mean_h": 57.566995,
+  "p3_linear_h": 57.115214,
+  "p3_mean_rel_pct": 0.5325,
+  "p3_linear_rel_pct": -0.2564,
+  "p4_hold_h": 50.897541,
+  "p4_mean_h": 51.165616,
+  "p4_linear_h": 50.781523,
+  "p4_mean_rel_pct": 0.5267,
+  "p4_linear_rel_pct": -0.2279,
+  "p3_latent_h": 62.64576,
+  "p3_latent_rel_pct": 9.4019
+}

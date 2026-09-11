@@ -1,0 +1,11 @@
+# 能力清单验收总账（逐项）
+
+- ✅ **P1-C1** [machine] PASS — 产物 result1.xlsx 已产出（364188 bytes；仅验证交付存在，不代表内容正确）
+- ✅ **P1-C2** [machine] PASS — 结论 PASS —— code/utils.py:220-301 _assemble_moisture/_assemble_temperature 以柱坐标 r 权重 w_j 与内外面 ξ_half 装配 (1/r)∂_r(r·)；表面为 Robin 通量(-D∂_rC=h_m(C_s-C_air))。code/problem1.py:27-29 surface_cv_residual=4.1e-14<1e-2 (falsifiable a)；build_grid 中心内侧面积恒为 0 (falsifiable b)；conservation_residual=5.6e-16<1e-10 (falsifiable c)。
+- ✅ **P1-C3** [machine] PASS — 结论 PASS —— code/params.py PROPS_P1 arr_T=0.0(附录2 常物性 ρ=820/c_p=2600/k=0.36)，D=7e-9·exp(-0.89/C) 无温度项。code/problem1.py:30-35 数值扰动 T±10K → dD_dT_rel_perturb=0.0<1e-12；D_at_C0=4.9377e-9∈[4.8e-9,5.0e-9]。
+- ✅ **P2-C1** [machine] PASS — 产物 result2.xlsx 已产出（2368359 bytes；仅验证交付存在，不代表内容正确）
+- ✅ **P2-C2** [machine] PASS — 结论 PASS —— code/params.py PROPS_P23 附录3 变物性(ρ_a3/cp_a3/k_a3 随 C)，D 含 Arrhenius arr_T=3850。code/utils.py:84 arrhenius_factor 入口断言 200<T_K<500(开尔文，摄氏度必触发, falsifiable b)。code/problem2.py:26-34 k_radial_dispersion=0.1188>1e-6(同一时刻不同 r 处 k 不等, falsifiable a)；picard_monotone=True 且 picard_residual_max=9.997e-12<1e-11(falsifiable c)。CK3/CK4 五点场与锚点逐位吻合。
+- ✅ **P3-C1** [machine] PASS — 产物 result3.xlsx 已产出（334668 bytes；仅验证交付存在，不代表内容正确）
+- ✅ **P3-C2** [machine] PASS — 结论 PASS —— code/utils.py:383-392 首次穿越判据用空间最大值 C_max(t)=max_r C(r,t)。code/problem3.py 在未取整原始解上 cmax_prev=0.150013≥0.15 → cmax_cross=0.149995<0.15(首穿, falsifiable a)；argmax_r_end=0 落在中心侧(falsifiable b)；cmax_monotone=True(falsifiable c)；t*=57.2621h。CK7 界面对照(算术 56.23h/调和 557.76h)、CK8 空间收敛阶 p=1.925≥1.7。
+- ✅ **P4-C1** [machine] PASS — 产物 result4.xlsx 已产出（286039 bytes；仅验证交付存在，不代表内容正确）
+- ✅ **P4-C2** [machine] PASS — 结论 PASS —— code/utils.py:197-214 build_radius_interp/radius_at 用附件2 PCHIP 保形插值(2.0→1.198cm)，solve_coupled 以 ξ=r/R(t) 定域、one_over_R2=1/R(t)² 处理收缩映射项。code/params.py PROPS_P4 d_pre=4.2e-4/d_exp=0.30(附录4)。code/problem4.py R_interp_rel_error_max=0.0<1e-8(falsifiable a)；R_max_positive_diff=0.0 单调非增(falsifiable b)；conservation_residual=3.26e-16<1e-10(ρ_s R² 不变量, falsifiable c)；R(t*)=1.2cm；t*=50.8975h。

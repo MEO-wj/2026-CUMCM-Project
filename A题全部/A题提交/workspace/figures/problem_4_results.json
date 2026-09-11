@@ -1,0 +1,36 @@
+{
+  "problem": 4,
+  "p4_t_star_h": 50.897541,
+  "p4_t_star_dense_h": 50.877797,
+  "p4_cmax_cross": 0.14999543148716712,
+  "p4_cmax_prev": 0.15002640052239016,
+  "p4_argmax_r_end": 0,
+  "p4_R_tstar_cm": 1.2,
+  "p4_R_interp_rel_error_max": 0.0,
+  "p4_R_max_positive_diff": 0.0,
+  "p4_rho_s_R2_invariant": 0.0401374647887324,
+  "p4_conservation_residual": 3.25855899997212e-16,
+  "p4_picard_residual_max": 9.997669359051997e-12,
+  "p4_center_6h_marks_h": [
+    6.0,
+    12.0,
+    18.0,
+    24.0,
+    30.0,
+    36.0,
+    42.0,
+    48.0
+  ],
+  "p4_center_6h_values": [
+    1.715597,
+    0.735007,
+    0.407275,
+    0.28418,
+    0.225646,
+    0.192283,
+    0.170793,
+    0.155765
+  ],
+  "p4_n_rows": 3055,
+  "p4_discrete_measure_sum_error": 0.0
+}

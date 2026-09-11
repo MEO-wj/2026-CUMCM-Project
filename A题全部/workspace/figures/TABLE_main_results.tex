@@ -1,0 +1,24 @@
+% 表：四问核心结果汇总
+% 数据来源：figures/all_results.json, problem_1..4_results.json, result1-4.xlsx
+\begin{table}[H]
+  \centering
+  \caption{四问核心求解结果汇总}
+  \label{tab:main_results}
+  \small
+  \begin{tabular}{clcrrrl}
+    \toprule
+    问题 & 物性/工况 & 时程 & 输出行数 & $C$ 中心终值 & $C$ 表面终值 & 达标时刻 $t^*$ \\
+    \midrule
+    1 & 附录2 常物性       & $0\sim1800$ s   & 1801  & 2.5500 & 1.5125 & 预热段，不反演 \\
+    2 & 附录3 变物性       & $0\sim3$ h      & 10801 & 1.7662 & 1.0078 & 未达标 \\
+    3 & 附录3 + 附件1 环境 & $0\sim57.26$ h  & 3437  & 0.1500 & 0.0525 & 57.262 h \\
+    4 & 附录4 + 动边界     & $0\sim50.90$ h  & 3055  & 0.1500 & 0.0525 & 50.898 h \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{2pt}
+  \parbox{0.92\linewidth}{\footnotesize
+  注：含水率为干基，单位 kg$\cdot$kg$^{-1}$；达标判据为全域最大含水率
+  $\max_r C\le 0.15$。问题 1、2 时程由题面给定，终点含水率仍高于阈值，
+  故不存在 $t^*$。问题 4 表面指动边界 $r=R(t)$ 处，$t^*$ 时刻 $R=1.2$ cm。}
+\end{table}

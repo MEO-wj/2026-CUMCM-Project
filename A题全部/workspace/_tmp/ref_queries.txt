@@ -1,0 +1,18 @@
+hot air drying medicinal herbs mathematical model
+coupled heat and mass transfer drying porous media
+finite volume method cylindrical coordinates diffusion equation
+shrinkage during convective drying of food materials model
+moving boundary problem drying Landau transformation front fixing
+Kirchhoff transformation nonlinear diffusion coefficient
+physics informed neural network drying shrinking domain
+effective moisture diffusivity Arrhenius temperature dependence
+Fickian diffusion thin layer drying model
+backward Euler implicit scheme stiff parabolic equation
+convective drying cylinder heat mass transfer numerical simulation
+Richardson extrapolation grid convergence study
+Stefan problem front fixing method numerical solution
+volume shrinkage core model drying kinetics
+moisture transport wood drying diffusion coefficient
+finite element modeling coupled heat mass transfer food drying
+Biot number mass transfer internal diffusion controlled drying
+Picard iteration nonlinear diffusion numerical

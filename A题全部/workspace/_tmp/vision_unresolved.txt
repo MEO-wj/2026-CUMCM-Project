@@ -1,0 +1,4 @@
+tikz_geometry_bc	5 rounds attempted	HTTP 502 / NO_VISION_API	tool returned STOP_VISION_LOOP (rc=0)	structural tikz_check 0 CRITICAL	bbox audit 0 overlap 0 oob	2026-09-11
+tikz_fvm_mesh	3 rounds attempted	HTTP 502 / NO_VISION_API	workspace global vision cap reached	structural tikz_check 0 CRITICAL	bbox audit 0 overlap 0 oob	2026-09-11
+tikz_landau_map	2 rounds attempted	HTTP 502 / NO_VISION_API	structural tikz_check 0 CRITICAL	bbox audit 0 overlap 0 oob	2026-09-11
+tikz_drymass_derive	2 rounds attempted	HTTP 502 / NO_VISION_API	tool returned STOP_VISION_LOOP global cap (rc=0)	structural tikz_check 0 CRITICAL	bbox audit 0 overlap 0 oob	2026-09-11

@@ -1,0 +1,48 @@
+{
+  "problem": 3,
+  "p3_t_star_h": 57.262062,
+  "p3_cmax_cross": 0.1499951462196492,
+  "p3_cmax_prev": 0.15001271372136182,
+  "p3_argmax_r_end": 0,
+  "p3_cmax_monotone": true,
+  "p3_C_surface_minus_C_air": 0.0026368355260304732,
+  "p3_Cs_end": 0.052496835526030475,
+  "p3_Cair_end": 0.04986,
+  "p3_conservation_residual": 4.381027131486525e-16,
+  "p3_picard_residual_max": 9.985956506142202e-12,
+  "p3_center_6h_marks_h": [
+    6.0,
+    12.0,
+    18.0,
+    24.0,
+    30.0,
+    36.0,
+    42.0,
+    48.0,
+    54.0
+  ],
+  "p3_center_6h_values": [
+    1.01716,
+    0.455768,
+    0.298448,
+    0.237444,
+    0.205506,
+    0.18559,
+    0.171802,
+    0.161582,
+    0.153637
+  ],
+  "p3_spatial_order_p": 1.925,
+  "p3_spatial_t_star_h": {
+    "20": 57.262062,
+    "40": 57.232245,
+    "80": 57.224393
+  },
+  "p3_interface_t_star_h": {
+    "kirchhoff": 57.2621,
+    "arithmetic": 56.2297,
+    "harmonic": 557.7612
+  },
+  "p3_n_rows": 3437,
+  "p3_discrete_measure_sum_error": 0.0
+}

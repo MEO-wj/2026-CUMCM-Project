@@ -1,0 +1,147 @@
+{
+  "verdict": "PASS",
+  "n_checks": 19,
+  "failures": [],
+  "rows": [
+    {
+      "quantity": "C_max_at_t_star",
+      "value": 0.14999543148716712,
+      "limit": 0.15,
+      "kind": "le",
+      "margin_rel": 3.0456752219132355e-05,
+      "status": "PASS"
+    },
+    {
+      "quantity": "conservation_residual_p1",
+      "value": 5.611277714265665e-16,
+      "limit": 1e-10,
+      "kind": "le",
+      "margin_rel": 0.9999943887222857,
+      "status": "PASS"
+    },
+    {
+      "quantity": "conservation_residual_p2",
+      "value": 4.798232379232173e-16,
+      "limit": 1e-10,
+      "kind": "le",
+      "margin_rel": 0.9999952017676208,
+      "status": "PASS"
+    },
+    {
+      "quantity": "conservation_residual_p3",
+      "value": 4.381027131486525e-16,
+      "limit": 1e-10,
+      "kind": "le",
+      "margin_rel": 0.9999956189728686,
+      "status": "PASS"
+    },
+    {
+      "quantity": "conservation_residual_p4",
+      "value": 3.25855899997212e-16,
+      "limit": 1e-10,
+      "kind": "le",
+      "margin_rel": 0.999996741441,
+      "status": "PASS"
+    },
+    {
+      "quantity": "bdf_cross_check_max_abs_diff",
+      "value": 0.0005768195385660313,
+      "limit": 0.001,
+      "kind": "le",
+      "margin_rel": 0.4231804614339687,
+      "status": "PASS"
+    },
+    {
+      "quantity": "picard_final_residual_max",
+      "value": 9.997669359051997e-12,
+      "limit": 1e-11,
+      "kind": "le",
+      "margin_rel": 0.00023306409480022328,
+      "status": "PASS"
+    },
+    {
+      "quantity": "discrete_measure_sum_error",
+      "value": 0.0,
+      "limit": 1e-14,
+      "kind": "le",
+      "margin_rel": 1e-14,
+      "status": "PASS"
+    },
+    {
+      "quantity": "C_surface_minus_C_air_at_t_star_p3",
+      "value": 0.0026368355260304732,
+      "limit": 0.0,
+      "kind": "ge",
+      "margin_rel": 0.0026368355260304732,
+      "status": "PASS"
+    },
+    {
+      "quantity": "spatial_convergence_order_p",
+      "value": 1.925,
+      "limit": 1.7,
+      "kind": "ge",
+      "margin_rel": 0.13235294117647065,
+      "status": "PASS"
+    },
+    {
+      "quantity": "R_interp_relative_error_max",
+      "value": 0.0,
+      "limit": 1e-08,
+      "kind": "le",
+      "margin_rel": 1.0,
+      "status": "PASS"
+    },
+    {
+      "equivalence": "t_star_p4_hours~t_star_p4_hours_pchip_vs_denser_output",
+      "a": 50.897541,
+      "b": 50.877797,
+      "rel_tol": 0.002,
+      "abs_tol": 0.0,
+      "status": "PASS"
+    },
+    {
+      "equivalence": "Cbar_change_p3~cumulative_surface_flux_p3",
+      "a": 2.4267781515529045,
+      "b": 2.426778151552909,
+      "rel_tol": 1e-10,
+      "abs_tol": 1e-14,
+      "status": "PASS"
+    },
+    {
+      "bound": "t_star_fixed_domain_hours",
+      "claim": "upper",
+      "probe_delta_sign": -1,
+      "status": "PASS"
+    },
+    {
+      "bound": "t_star_no_latent_heat_hours",
+      "claim": "lower",
+      "probe_delta_sign": 1,
+      "status": "PASS"
+    },
+    {
+      "monotonic": "T_air_hot_air_temperature->t_star_drying_time_hours",
+      "observed_sign": -1,
+      "expect_sign": -1,
+      "status": "PASS"
+    },
+    {
+      "monotonic": "h_m_mass_transfer_coefficient->t_star_drying_time_hours",
+      "observed_sign": -1,
+      "expect_sign": -1,
+      "status": "PASS"
+    },
+    {
+      "monotonic": "R0_initial_radius->t_star_drying_time_hours",
+      "observed_sign": 1,
+      "expect_sign": 1,
+      "status": "PASS"
+    },
+    {
+      "monotonic": "C0_initial_moisture->t_star_drying_time_hours",
+      "observed_sign": 1,
+      "expect_sign": 1,
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+% 国赛 (CUMCM) 2026 兼容模板
+% 基于社区维护的 latexstudio/CUMCMThesis，并以全国组委会 2026 格式规范为准。
+% cumcmthesis 不是组委会指定的唯一 TeX 模板。
+% 电子版提交使用 withoutpreface 去掉封面编号页，bwprint 黑白打印
+\documentclass[withoutpreface,bwprint]{cumcmthesis}
+
+% === 额外宏包（cumcmthesis 已内置 amsmath/graphicx/booktabs/listings/hyperref/tabularx/longtable 等）===
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage[section]{placeins}
+\usepackage{needspace}
+\usepackage{algorithm2e}
+
+% === 参考文献引用（数字型，配合 gbt7714-numerical.bst）===
+% ⛔ 不要加 \usepackage{cite} — 和 natbib 冲突导致编译错误。
+% ⛔ 必须显式加载 natbib：gbt7714-numerical.bst 产出的是 natbib 风格条目
+%    （\bibitem[作者(年)]{key}），不加载 natbib 时标准 \cite 会把"作者-年"当引用标记
+%    上标出来（而非数字 [1]）。numbers 模式让 \cite 产出数字，cls 的 \upcite 再上标它。
+%    正文引用统一用 \upcite{key} 得数字上标 $^{[1]}$。
+\usepackage[numbers,sort&compress]{natbib}
+
+% === TikZ（cumcmthesis 已加载 tikz，这里只加额外库）===
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,calc}
+
+% === 代码高亮设置 ===
+\lstset{
+    language=Python,
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+}
+
+% === 摘要后排版修复 ===
+% ⛔ 不再重定义 \@cite —— 引用交给 natbib（上面已 numbers 模式加载），
+%    \upcite 会正确产出数字上标；旧的 \@cite hack 在 natbib 下无效且会干扰，已移除。
+\makeatletter
+% === 修复摘要后排版（cls 的 abstract 结束时有 \newpage\null，可能产生空白页）===
+% 方案：abstract 结束时只换页，不加 \null；正文不生成目录。
+\renewenvironment{abstract}{%
+  \if@twocolumn\section*{\abstractname}%
+  \else\begin{center}{\zihao{3}\bfseries \abstractname\vspace{-.5em}\vspace{\z@}}\end{center}\quotation
+  \fi}{\if@twocolumn\else\endquotation\newpage\fi}
+\makeatother
+
+% === 竞赛信息（电子版提交时注释掉）===
+% \tihao{A}
+% \baominghao{xxxx}
+% \schoolname{[学校名称]}
+% \membera{[成员A]}
+% \memberb{[成员B]}
+% \memberc{[成员C]}
+% \supervisor{[指导老师]}
+% \yearinput{[竞赛年份]}
+% \monthinput{[月]}
+% \dayinput{[日]}
+
+\title{[论文标题]}
+
+\begin{document}
+
+\maketitle
+
+% === 摘要 ===
+\begin{abstract}
+
+[中文摘要内容：600--800字，写满且收在一页；每个子问题独立一段，包含具名方法和真实数值结果，并用 \textbf{} 各突出1--3处关键方法/结果]
+
+\keywords{[关键词1]\quad [关键词2]\quad [关键词3]}
+\end{abstract}
+
+% === 摘要与正文之间的换页 ===
+% ⛔ 不要在这里加回 \tableofcontents：竞赛论文统一不出目录页。
+% abstract 环境结尾已经换页；这里不再重复 \clearpage，避免空白页边缘情况。
+
+% === 正文 ===
+% 这两个标签只供编译合规检查精确计算 CUMCM 正文页数，不显示在论文中。
+\label{mh:body-start}
+\input{sections/1_restatement}
+\input{sections/2_analysis}
+\input{sections/3_assumptions}
+\input{sections/4_symbols}
+\input{sections/5_problem1}
+\input{sections/6_problem2}
+\input{sections/7_problem3}
+\input{sections/8_sensitivity}
+\input{sections/9_evaluation}
+
+% === 参考文献 ===
+\begin{thebibliography}{99}
+% \bibitem[1]{ref1} 作者. 标题[J]. 期刊, 年份.
+\end{thebibliography}
+\label{mh:body-end}
+
+% === 附录 ===
+\begin{appendices}
+\input{sections/A_code}
+\end{appendices}
+
+\end{document}

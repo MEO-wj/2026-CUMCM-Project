@@ -1,0 +1,55 @@
+% 表：三套附录物性模型与关键参数
+% 数据来源：PROBLEM_FACTS.json → code/params.py（OCR SHA256 核验）
+\begin{table}[H]
+  \centering
+  \caption{三套附录物性模型对照}
+  \label{tab:properties}
+  \small
+  \begin{tabular}{llll}
+    \toprule
+    物性量 & 附录2（问题1） & 附录3（问题2、3） & 附录4（问题4） \\
+    \midrule
+    密度 $\rho$ / (kg$\cdot$m$^{-3}$)
+      & $820$
+      & $650+128\,C$
+      & $760+90\,C$ \\
+    比热 $c_p$ / (J$\cdot$kg$^{-1}$K$^{-1}$)
+      & $2600$
+      & $1450+2736\dfrac{C}{C+1}$
+      & $1850+2150\dfrac{C}{C+1}$ \\
+    导热 $k$ / (W$\cdot$m$^{-1}$K$^{-1}$)
+      & $0.36$
+      & $0.21+0.38\dfrac{C}{C+1}$
+      & $0.12+0.20\dfrac{C}{C+1}$ \\
+    扩散系数 $D$ / (m$^2\cdot$s$^{-1}$)
+      & $7{\times}10^{-9}e^{-0.89/C}$
+      & $2.4{\times}10^{-3}e^{-0.45/C}e^{-3850/T_K}$
+      & $4.2{\times}10^{-4}e^{-0.30/C}e^{-3850/T_K}$ \\
+    \midrule
+    $D$ 初始值（$C_0$，$28^\circ$C）
+      & $4.938{\times}10^{-9}$
+      & $5.642{\times}10^{-9}$
+      & 随工况 \\
+    $D$ 终点值（$C_{\rm th}$，$50^\circ$C）
+      & ---
+      & $8.001{\times}10^{-10}$
+      & 随工况 \\
+    温度依赖性
+      & 无
+      & Arrhenius
+      & Arrhenius \\
+    边界域
+      & 固定 $R_0$
+      & 固定 $R_0$
+      & 动边界 $R(t)$ \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{2pt}
+  \parbox{0.94\linewidth}{\footnotesize
+  注：$C$ 为干基含水率（kg$\cdot$kg$^{-1}$），$T_K$ 为开尔文温度。
+  共用参数：$R_0=2$ cm，$L=25$ cm，$T_0=28^\circ$C，$C_0=2.55$，达标阈值
+  $C_{\rm th}=0.15$，对流换热 $h=25$ W$\cdot$m$^{-2}$K$^{-1}$，
+  对流传质 $h_m=8{\times}10^{-7}$ m$\cdot$s$^{-1}$。
+  $D$ 锚点值由上式复算，与题面校核点一致。}
+\end{table}

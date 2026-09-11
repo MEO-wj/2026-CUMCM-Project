@@ -1,0 +1,78 @@
+{
+  "C_max_at_t_star": 0.14999543148716712,
+  "conservation_residual_p1": 5.611277714265665e-16,
+  "conservation_residual_p2": 4.798232379232173e-16,
+  "conservation_residual_p3": 4.381027131486525e-16,
+  "conservation_residual_p4": 3.25855899997212e-16,
+  "bdf_cross_check_max_abs_diff": 0.0005768195385660313,
+  "picard_final_residual_max": 9.997669359051997e-12,
+  "discrete_measure_sum_error": 0.0,
+  "C_surface_minus_C_air_at_t_star_p3": 0.0026368355260304732,
+  "spatial_convergence_order_p": 1.925,
+  "R_interp_relative_error_max": 0.0,
+  "t_star_p4_hours": 50.897541,
+  "t_star_p4_hours_pchip_vs_denser_output": 50.877797,
+  "Cbar_change_p3": 2.4267781515529045,
+  "cumulative_surface_flux_p3": 2.426778151552909,
+  "t_star_p1_note": "预热平衡阶段,不反演终点",
+  "t_star_p3_hours": 57.262062,
+  "t_star_fixed_domain_p4_hours": 129.25312598008935,
+  "t_star_shrinking_p4_hours": 50.897541,
+  "t_star_latent_p3_hours": 62.64576,
+  "t_star_no_latent_p3_hours": 57.262062,
+  "R_tstar_cm_p4": 1.2,
+  "sensitivity": {
+    "p3_hold_h": 57.262062,
+    "p3_mean_h": 57.566995,
+    "p3_linear_h": 57.115214,
+    "p3_mean_rel_pct": 0.5325,
+    "p3_linear_rel_pct": -0.2564,
+    "p4_hold_h": 50.897541,
+    "p4_mean_h": 51.165616,
+    "p4_linear_h": 50.781523,
+    "p4_mean_rel_pct": 0.5267,
+    "p4_linear_rel_pct": -0.2279,
+    "p3_latent_h": 62.64576,
+    "p3_latent_rel_pct": 9.4019
+  },
+  "logic_probes": {
+    "bounds": [
+      {
+        "quantity": "t_star_fixed_domain_hours",
+        "claim": "upper",
+        "probe_delta_sign": -1
+      },
+      {
+        "quantity": "t_star_no_latent_heat_hours",
+        "claim": "lower",
+        "probe_delta_sign": 1
+      }
+    ],
+    "monotonic": [
+      {
+        "more": "T_air_hot_air_temperature",
+        "then": "t_star_drying_time_hours",
+        "observed_sign": -1,
+        "expect_sign": -1
+      },
+      {
+        "more": "h_m_mass_transfer_coefficient",
+        "then": "t_star_drying_time_hours",
+        "observed_sign": -1,
+        "expect_sign": -1
+      },
+      {
+        "more": "R0_initial_radius",
+        "then": "t_star_drying_time_hours",
+        "observed_sign": 1,
+        "expect_sign": 1
+      },
+      {
+        "more": "C0_initial_moisture",
+        "then": "t_star_drying_time_hours",
+        "observed_sign": 1,
+        "expect_sign": 1
+      }
+    ]
+  }
+}

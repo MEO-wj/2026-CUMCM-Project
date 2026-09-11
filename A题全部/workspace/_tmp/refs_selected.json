@@ -1,0 +1,226 @@
+[
+ {
+  "title": "Dehydration behaviour, mathematical modelling, energy efficiency and essential oil yield of peppermint leaves undergoing microwave and hot air treatments",
+  "authors": [
+   "Mehdi Torki-Harchegani",
+   "D. Ghanbarian",
+   "Abdollah Ghasemi Pirbalouti",
+   "M. Sadeghi"
+  ],
+  "year": 2016,
+  "venue": "Renewable & Sustainable Energy Reviews",
+  "doi": "10.1016/J.RSER.2015.12.078",
+  "arxiv": ""
+ },
+ {
+  "title": "Influence of Internal and External Resistances to Mass Transfer on the constant drying rate period in high-moisture foods",
+  "authors": [
+   "S. A. Giner"
+  ],
+  "year": 2009,
+  "venue": "Biosystems Engineering",
+  "doi": "10.1016/J.BIOSYSTEMSENG.2008.09.022",
+  "arxiv": ""
+ },
+ {
+  "title": "Heat and Mass Transfer in Shrimp Hot-Air Drying: Experimental Evaluation and Numerical Simulation",
+  "authors": [
+   "J. Teleken",
+   "S. M. Amorim",
+   "Sarah S. S. Rodrigues",
+   "Thailla W. P. de Souza",
+   "João P. Ferreira",
+   "B. A. Carciofi"
+  ],
+  "year": 2025,
+  "venue": "Foods",
+  "doi": "10.3390/foods14030428",
+  "arxiv": ""
+ },
+ {
+  "title": "Mathematical modelling of drying characteristics of blanched field pumpkin (Cucurbita pepo L) slices",
+  "authors": [
+   "T. O. Olurin",
+   "A. Adelekan",
+   "W. Olosunde"
+  ],
+  "year": 2012,
+  "venue": "Agricultural Engineering International: The CIGR Journal",
+  "doi": "",
+  "arxiv": ""
+ },
+ {
+  "title": "The Kirchhoff Transformation and the Fick’s Second Law with Concentration-dependent Diffusion Coefficient",
+  "authors": [
+   "R. Gama",
+   "R. Gama"
+  ],
+  "year": 2021,
+  "venue": "WSEAS Transactions on Heat and Mass Transfer",
+  "doi": "10.37394/232012.2021.16.9",
+  "arxiv": ""
+ },
+ {
+  "title": "Modelling shrinkage during convective drying of food materials: a review",
+  "authors": [
+   "L. Mayor",
+   "A.M. Sereno"
+  ],
+  "year": 2004,
+  "venue": "Journal of Food Engineering",
+  "doi": "10.1016/s0260-8774(03)00144-4",
+  "arxiv": ""
+ },
+ {
+  "title": "Numerical solution of the one phase 1D fractional Stefan problem using the front fixing method",
+  "authors": [
+   "Marek Błasik",
+   "Małgorzata Klimek"
+  ],
+  "year": 2015,
+  "venue": "Mathematical Methods in the Applied Sciences",
+  "doi": "10.1002/mma.3292",
+  "arxiv": ""
+ },
+ {
+  "title": "Heat and Mass Transfer Phenomena in Porous Media – Application to Drying",
+  "authors": [
+   "Benitta A. Chaedir"
+  ],
+  "year": 2019,
+  "venue": "Heat and Mass Transfer in Drying of Porous Media",
+  "doi": "10.1201/9781351019224-1",
+  "arxiv": ""
+ },
+ {
+  "title": "Initialization-Enhanced Physics-Informed Neural Network with Domain Decomposition (Idpinn)",
+  "authors": [
+   "Chenhao Si",
+   "Ming Yan"
+  ],
+  "year": null,
+  "venue": "",
+  "doi": "10.2139/ssrn.4872043",
+  "arxiv": ""
+ },
+ {
+  "title": "Grid Refinement Study with a UHCA Wing-Body Configuration Using Richardson Extrapolation and Grid Convergence Index GCI",
+  "authors": [
+   "M. Rakowitz"
+  ],
+  "year": 2002,
+  "venue": "New Results in Numerical and Experimental Fluid Mechanics III",
+  "doi": "10.1007/978-3-540-45466-3_36",
+  "arxiv": ""
+ },
+ {
+  "title": "Direct numerical simulation of coupled heat and mass transfer in hygroscopic porous media",
+  "authors": [
+   "Patrick Perré"
+  ],
+  "year": null,
+  "venue": "Proceedings of the 22nd International Drying Symposium on Drying Technology - IDS '22",
+  "doi": "10.55900/lavrknht",
+  "arxiv": ""
+ },
+ {
+  "title": "Finite Difference Methods Based on the Kirchhoff Transformation and Time Linearization for the Numerical Solution of Nonlinear Reaction-Diffusion Equations",
+  "authors": [
+   "J. I. Ramos"
+  ],
+  "year": 2024,
+  "venue": "De Computis",
+  "doi": "10.3390/computation12110218",
+  "arxiv": ""
+ },
+ {
+  "title": "Calculation of Biological Material’s Shrinkage during Convective Drying Using Fractal Model",
+  "authors": [
+   "Sai Zhang",
+   "Jun Ruo Chen",
+   "Xian Xi Liu"
+  ],
+  "year": 2011,
+  "venue": "Advanced Materials Research",
+  "doi": "10.4028/www.scientific.net/amr.393-395.632",
+  "arxiv": ""
+ },
+ {
+  "title": "SDD-PINN: Physics-informed neural network for single droplet drying",
+  "authors": [
+   "Narjes Malekjani",
+   "Andreas Bück",
+   "Abdolreza Kharaghani",
+   "Evangelos Tsotsas"
+  ],
+  "year": null,
+  "venue": "",
+  "doi": "10.2139/ssrn.5749490",
+  "arxiv": ""
+ },
+ {
+  "title": "Numerical simulation by finite difference method of 2D convection-diffusion in cylindrical coordinates",
+  "authors": [
+   "Claudia Narumi Takayama Mori",
+   "Estaner Claro Romao"
+  ],
+  "year": 2015,
+  "venue": "Applied Mathematical Sciences",
+  "doi": "10.12988/ams.2015.58547",
+  "arxiv": ""
+ },
+ {
+  "title": "Effect of the Mass Transfer Biot Number on Moisture Desorption and Hygrothermal Stress in QFN Packages",
+  "authors": [
+   "Lifan Ma",
+   "Jun Wang"
+  ],
+  "year": 2026,
+  "venue": "Electronics",
+  "doi": "10.3390/electronics15173835",
+  "arxiv": ""
+ },
+ {
+  "title": "Effective Moisture Diffusivity in Porous Materials as a Function of Temperature and Moisture Content",
+  "authors": [
+   "C. H. Tong",
+   "D. B. Lund"
+  ],
+  "year": 1990,
+  "venue": "Biotechnology Progress",
+  "doi": "10.1021/bp00001a011",
+  "arxiv": ""
+ },
+ {
+  "title": "Numerical methods for the solution of the Stefan problem",
+  "authors": [],
+  "year": 2016,
+  "venue": "Translations of Mathematical Monographs",
+  "doi": "10.1090/mmono/027/13",
+  "arxiv": ""
+ },
+ {
+  "title": "Mathematical Modelling of the Kinetics of Convective Hot Air Drying of Crickets",
+  "authors": [
+   "Chiang Choon Lai",
+   "Hii Ching Lik",
+   "Xin Jojo Foo",
+   "Soo Weng Kit",
+   "M. Djaeni"
+  ],
+  "year": 2025,
+  "venue": "Journal of Advanced Research in Fluid Mechanics and Thermal Sciences",
+  "doi": "10.37934/arfmts.129.1.190200",
+  "arxiv": ""
+ },
+ {
+  "title": "Heat and Mass Transfer during Food Drying",
+  "authors": [
+   "Ibrahim Dincer"
+  ],
+  "year": 2010,
+  "venue": "Mathematical Modeling of Food Processing",
+  "doi": "10.1201/9781420053548-13",
+  "arxiv": ""
+ }
+]

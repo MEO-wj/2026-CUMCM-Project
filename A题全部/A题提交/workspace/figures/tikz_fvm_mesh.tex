@@ -1,0 +1,97 @@
+% 图契约
+% purpose: 读者应能回答——径向控制体如何划分、界面通量为何按半径加权、界面扩散系数取何值
+% topology: geometry
+% reading_direction: coordinate-based
+% node_roles: 网格线、控制体、界面、通量
+% edge_roles: 界面通量、几何对应、尺寸标注
+% paper_context: 数值离散一节，栏宽插入，符号沿用几何示意图
+% visual_encoding: 形状承担控制体，条高编码界面面积权重，强调色仅标注界面扩散系数取法
+% style_family: G2
+% annotation_policy: minimal
+% result_policy: symbolic
+% final_width: column
+% print_mode: both
+% MH-TIKZ-ABSOLUTE-OK: 横坐标即半径方向，节点位置对应真实网格与界面位置
+\documentclass[border=3pt,12pt]{standalone}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc}
+
+\definecolor{paperInk}{HTML}{111111}
+\definecolor{paperAccent}{HTML}{3B549C}
+\definecolor{paperGuide}{HTML}{4A4A4A}
+\definecolor{paperPanel}{HTML}{F2F4F9}
+\definecolor{paperCell}{HTML}{DCE2F0}
+
+\begin{document}
+\adjustbox{max width=\textwidth}{%
+\begin{tikzpicture}[
+  line cap=round,
+  meshline/.style={draw=paperInk, line width=0.55pt},
+  solid_body/.style={draw=paperInk, line width=0.9pt},
+  guide/.style={draw=paperGuide, dashed, line width=0.5pt},
+  flux/.style={-{Stealth[length=4pt]}, draw=paperInk, line width=0.8pt},
+  emphasis/.style={draw=paperAccent, line width=0.6pt},
+  slbl/.style={text=paperInk, font=\footnotesize},
+  acclbl/.style={text=paperAccent, font=\footnotesize}
+]
+
+% ================= 上部：径向网格条（r=0 → R 等分 M 个控制体） =================
+\fill[paperPanel] (0,0) rectangle (8,0.85);
+\fill[paperCell] (3,0) rectangle (4,0.85);
+\draw[solid_body] (0,0) rectangle (8,0.85);
+\foreach \x in {1,2,3,4,5,6,7}{ \draw[meshline] (\x,0) -- (\x,0.85); }
+\node[slbl] at (0.5,0.42) {$1$};
+\node[slbl] at (1.5,0.42) {$\cdots$};
+\node[slbl] at (2.5,0.42) {$i\!-\!1$};
+\node[slbl] at (3.5,0.42) {$i$};
+\node[slbl] at (4.5,0.42) {$i\!+\!1$};
+\node[slbl] at (5.75,0.42) {$\cdots$};
+\node[slbl] at (7.5,0.42) {$M$};
+\node[slbl] at (3.5,1.14) {等分 $M=20$，与输出列 $0.1\,\mathrm{cm}$ 对齐};
+
+\draw[flux] (0,-0.45) -- (8,-0.45);
+\node[slbl] at (0.78,-0.92) {$r=0$ 对称};
+\node[slbl] at (7.22,-0.92) {$r=R$ 表面};
+
+% ================= 几何对应引线 =================
+\draw[guide] (3,0) -- (1.6,-1.75);
+\draw[guide] (4,0) -- (6.4,-1.75);
+\node[slbl] at (4,-1.58) {控制体 $i$ 展开：面 $w,e$ 即 $i\mp1/2$};
+
+% ============ 下部：展开控制体，两端条高编码界面面积 2\pi r L ============
+\fill[paperCell] (1.6,-3.7) -- (6.4,-3.7) -- (6.4,-1.75) -- (1.6,-2.55) -- cycle;
+\draw[solid_body] (1.6,-3.7) -- (6.4,-3.7) -- (6.4,-1.75) -- (1.6,-2.55) -- cycle;
+\draw[solid_body] (1.6,-3.7) -- (1.6,-2.55);
+\draw[solid_body] (6.4,-3.7) -- (6.4,-1.75);
+
+% 两界面半径标注（引线散射，避免同锚点聚集）
+\draw[guide] (1.05,-2.32) -- (1.6,-2.55);
+\node[slbl] at (1.05,-2.16) {$r_{w}$};
+\draw[guide] (6.95,-1.98) -- (6.4,-1.75);
+\node[slbl] at (6.95,-2.16) {$r_{e}$};
+
+% 面积权重与控制体体积
+\node[slbl, text width=3.2cm, align=center] at (4,-2.52)
+  {条高 $\propto$ 面积 $A_w,A_e$\\$V_i=2\pi r_i\,\Delta r\,L$};
+
+% 进出通量
+\draw[flux] (0.66,-4.06) -- (1.86,-4.06);
+\node[slbl] at (1.26,-4.42) {$J_{w}$};
+\draw[flux] (6.14,-4.06) -- (7.34,-4.06);
+\node[slbl] at (6.74,-4.42) {$J_{e}$};
+
+% ================= 离散守恒式与界面扩散系数 =================
+\node[slbl] at (4,-5.32)
+  {$\dfrac{V_i}{\Delta t}\bigl(C_i^{n+1}-C_i^{n}\bigr)
+    =A_e J_e^{\,n+1}-A_w J_w^{\,n+1}$};
+
+\draw[emphasis] (5.6,-6.12) -- (6.4,-3.86);
+\node[acclbl, align=center] at (4,-6.46)
+  {界面扩散系数取势函数积分平均\\
+   $D_e=\bigl[\Phi(C_{i+1})-\Phi(C_i)\bigr]\big/\bigl(C_{i+1}-C_i\bigr)$};
+
+\end{tikzpicture}
+}%
+\end{document}

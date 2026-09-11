@@ -1,0 +1,1006 @@
+>>> QUERY: hot air drying medicinal herbs mathematical model
+[
+  {
+    "title": "Mathematical Modelling of the Kinetics of Convective Hot Air Drying of Crickets",
+    "authors": [
+      "Chiang Choon Lai",
+      "Hii Ching Lik",
+      "Xin Jojo Foo",
+      "Soo Weng Kit",
+      "M. Djaeni"
+    ],
+    "year": 2025,
+    "doi": "10.37934/arfmts.129.1.190200",
+    "arxiv_id": "",
+    "venue": "Journal of Advanced Research in Fluid Mechanics and Thermal Sciences",
+    "citation_count": 1,
+    "abstract": "This study explored crickets’ potential in addressing food insecurity and promoting sustainable agricultural practices. The research focuses on investigating the drying kinetics of crickets by measuring the moisture contents over time while drying at different hot air temperatures (70 - 90°C). Results showed that drying temperature had a crucial impact on the drying kinetics of crickets, with distinct curves observed at lower and higher temperatures. The effective diffusivity determined ranged f",
+    "bibtex": "@article{Choon_Lai_2025, title={Mathematical Modelling of the Kinetics of Convective Hot Air Drying of Crickets}, volume={129}, ISSN={2289-7879}, url={http://dx.doi.org/10.37934/arfmts.129.1.190200}, DOI={10.37934/arfmts.129.1.190200}, number={1}, journal={Journal of Advanced Research in Fluid Mechanics and Thermal Sciences}, publisher={Akademia Baru Publishing}, author={Choon Lai, Chiang and Ching Lik, Hii and Jojo Foo, Xin and Weng Kit, Soo and Djaeni, Mohamad}, year={2025}, month=Mar, pages={190–200} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.466,
+    "match_label": "partial"
+  },
+  {
+    "title": "Heat and Mass Transfer in Shrimp Hot-Air Drying: Experimental Evaluation and Numerical Simulation",
+    "authors": [
+      "J. Teleken",
+      "S. M. Amorim",
+      "Sarah S. S. Rodrigues",
+      "Thailla W. P. de Souza",
+      "João P. Ferreira",
+      "B. A. Carciofi"
+    ],
+    "year": 2025,
+    "doi": "10.3390/foods14030428",
+    "arxiv_id": "",
+    "venue": "Foods",
+    "citation_count": 15,
+    "abstract": "Shrimp is one of the most popular and widely consumed seafood products worldwide. It is highly perishable due to its high moisture content. Thus, dehydration is commonly used to extend its shelf life, mostly via air drying, leading to a temperature increase, moisture removal, and matrix shrinkage. In this study, a mathematical model was developed to describe the changes in moisture and temperature distribution in shrimp during hot-air drying. The model considered the heat and mass transfer in an",
+    "bibtex": "@article{Teleken_2025, title={Heat and Mass Transfer in Shrimp Hot-Air Drying: Experimental Evaluation and Numerical Simulation}, volume={14}, ISSN={2304-8158}, url={http://dx.doi.org/10.3390/foods14030428}, DOI={10.3390/foods14030428}, number={3}, journal={Foods}, publisher={MDPI AG}, author={Teleken, Jhony T. and Amorim, Suélen M. and Rodrigues, Sarah S. S. and de Souza, Thailla W. P. and Ferreira, João P. and Carciofi, Bruno A. M.}, year={2025}, month=Jan, pages={428} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.328,
+    "match_label": "partial"
+  },
+  {
+    "title": "Dehydration behaviour, mathematical modelling, energy efficiency and essential oil yield of peppermint leaves undergoing microwave and hot air treatments",
+    "authors": [
+      "Mehdi Torki-Harchegani",
+      "D. Ghanbarian",
+      "Abdollah Ghasemi Pirbalouti",
+      "M. Sadeghi"
+    ],
+    "year": 2016,
+    "doi": "10.1016/J.RSER.2015.12.078",
+    "arxiv_id": "",
+    "venue": "Renewable & Sustainable Energy Reviews",
+    "citation_count": 157,
+    "abstract": "",
+    "bibtex": "@article{Torki_Harchegani_2016, title={Dehydration behaviour, mathematical modelling, energy efficiency and essential oil yield of peppermint leaves undergoing microwave and hot air treatments}, volume={58}, ISSN={1364-0321}, url={http://dx.doi.org/10.1016/J.RSER.2015.12.078}, DOI={10.1016/j.rser.2015.12.078}, journal={Renewable and Sustainable Energy Reviews}, publisher={Elsevier BV}, author={Torki-Harchegani, Mehdi and Ghanbarian, Davoud and Ghasemi Pirbalouti, Abdollah and Sadeghi, Morteza}, year={2016}, month=May, pages={407–418} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.312,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: coupled heat and mass transfer drying porous media
+[
+  {
+    "title": "Heat and Mass Transfer Phenomena in Porous Media – Application to Drying",
+    "authors": [
+      "Benitta A. Chaedir"
+    ],
+    "year": 2019,
+    "doi": "10.1201/9781351019224-1",
+    "arxiv_id": "",
+    "venue": "Heat and Mass Transfer in Drying of Porous Media",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inbook{Chaedir_2019, title={Heat and Mass Transfer Phenomena in Porous Media – Application to Drying}, ISBN={9781351019224}, url={http://dx.doi.org/10.1201/9781351019224-1}, DOI={10.1201/9781351019224-1}, booktitle={Heat and Mass Transfer in Drying of Porous Media}, publisher={CRC Press}, author={Chaedir, Benitta A.}, editor={Sasmito, Agus P. and Mujumdar, Arun S. and Xu, Peng}, year={2019}, month=July, pages={1–36} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.758,
+    "match_label": "good"
+  },
+  {
+    "title": "Direct numerical simulation of coupled heat and mass transfer in hygroscopic porous media",
+    "authors": [
+      "Patrick Perré"
+    ],
+    "year": null,
+    "doi": "10.55900/lavrknht",
+    "arxiv_id": "",
+    "venue": "Proceedings of the 22nd International Drying Symposium on Drying Technology - IDS '22",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inproceedings{Perr_, series={IDS ’22}, title={Direct numerical simulation of coupled heat and mass transfer in hygroscopic porous media}, url={http://dx.doi.org/10.55900/lavrknht}, DOI={10.55900/lavrknht}, booktitle={Proceedings of the 22nd International Drying Symposium on Drying Technology - IDS ’22}, publisher={Worcester Polytechnic Institute - Gordon Library}, author={Perré, Patrick}, collection={IDS ’22} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.725,
+    "match_label": "good"
+  },
+  {
+    "title": "Wicking and Drying in Fibrous Porous Materials",
+    "authors": [
+      "Dahua Shou",
+      "Jintu Fan"
+    ],
+    "year": 2019,
+    "doi": "10.1201/9781351019224-6",
+    "arxiv_id": "",
+    "venue": "Heat and Mass Transfer in Drying of Porous Media",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inbook{Shou_2019, title={Wicking and Drying in Fibrous Porous Materials}, ISBN={9781351019224}, url={http://dx.doi.org/10.1201/9781351019224-6}, DOI={10.1201/9781351019224-6}, booktitle={Heat and Mass Transfer in Drying of Porous Media}, publisher={CRC Press}, author={Shou, Dahua and Fan, Jintu}, year={2019}, month=July, pages={131–156} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.325,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: finite volume method cylindrical coordinates diffusion equation
+[
+  {
+    "title": "The residual variable method applied to the diffusion equation in cylindrical coordinates",
+    "authors": [
+      "N. Akkas",
+      "F. Erdoğan"
+    ],
+    "year": 1989,
+    "doi": "10.1007/bf01187263",
+    "arxiv_id": "",
+    "venue": "Acta Mechanica",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Akkas_1989, title={The residual variable method applied to the diffusion equation in cylindrical coordinates}, volume={79}, ISSN={1619-6937}, url={http://dx.doi.org/10.1007/bf01187263}, DOI={10.1007/bf01187263}, number={3-4}, journal={Acta Mechanica}, publisher={Springer Science and Business Media LLC}, author={Akkas, N. and Erdoğan, F.}, year={1989}, month=Sept, pages={207–219} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.582,
+    "match_label": "partial"
+  },
+  {
+    "title": "Numerical simulation by finite difference method of 2D convection-diffusion in cylindrical coordinates",
+    "authors": [
+      "Claudia Narumi Takayama Mori",
+      "Estaner Claro Romao"
+    ],
+    "year": 2015,
+    "doi": "10.12988/ams.2015.58547",
+    "arxiv_id": "",
+    "venue": "Applied Mathematical Sciences",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Mori_2015, title={Numerical simulation by finite difference method of 2D convection-diffusion in cylindrical coordinates}, volume={9}, ISSN={1314-7552}, url={http://dx.doi.org/10.12988/ams.2015.58547}, DOI={10.12988/ams.2015.58547}, journal={Applied Mathematical Sciences}, publisher={Hikari, Ltd.}, author={Mori, Claudia Narumi Takayama and Romao, Estaner Claro}, year={2015}, pages={6157–6165} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.562,
+    "match_label": "partial"
+  },
+  {
+    "title": "Solution scheme development of the nonhomogeneous heat conduction equation in cylindrical coordinates with Neumann boundary conditions by finite difference method",
+    "authors": [
+      "Melih Yıldız"
+    ],
+    "year": 2024,
+    "doi": "10.26701/ems.1469706",
+    "arxiv_id": "",
+    "venue": "European Mechanical Science",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Y_ld_z_2024, title={Solution scheme development of the nonhomogeneous heat conduction equation in cylindrical coordinates with Neumann boundary conditions by finite difference method}, volume={8}, ISSN={2587-1110}, url={http://dx.doi.org/10.26701/ems.1469706}, DOI={10.26701/ems.1469706}, number={3}, journal={European Mechanical Science}, publisher={European Mechanical Science}, author={Yıldız, Melih}, year={2024}, month=Sept, pages={179–190} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.519,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: shrinkage during convective drying of food materials model
+[
+  {
+    "title": "Modelling shrinkage during convective drying of food materials: a review",
+    "authors": [
+      "L. Mayor",
+      "A.M. Sereno"
+    ],
+    "year": 2004,
+    "doi": "10.1016/s0260-8774(03)00144-4",
+    "arxiv_id": "",
+    "venue": "Journal of Food Engineering",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Mayor_2004, title={Modelling shrinkage during convective drying of food materials: a review}, volume={61}, ISSN={0260-8774}, url={http://dx.doi.org/10.1016/s0260-8774(03)00144-4}, DOI={10.1016/s0260-8774(03)00144-4}, number={3}, journal={Journal of Food Engineering}, publisher={Elsevier BV}, author={Mayor, L. and Sereno, A.M.}, year={2004}, month=Feb, pages={373–386} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.805,
+    "match_label": "good"
+  },
+  {
+    "title": "A simplified model for predicting shrinkage during low temperature air drying of porous food materials",
+    "authors": [
+      "Ankita Sinha",
+      "Atul Bhargav"
+    ],
+    "year": null,
+    "doi": "10.31224/osf.io/4uqb2",
+    "arxiv_id": "",
+    "venue": "",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Sinha_2019, title={A simplified model for predicting shrinkage during low temperature air drying of porous food materials}, url={http://dx.doi.org/10.31224/osf.io/4uqb2}, DOI={10.31224/osf.io/4uqb2}, publisher={Open Engineering Inc}, author={Sinha, Ankita and Bhargav, Atul}, year={2019}, month=Nov }",
+    "bibtex_source": "crossref",
+    "match_score": 0.712,
+    "match_label": "good"
+  },
+  {
+    "title": "Calculation of Biological Material’s Shrinkage during Convective Drying Using Fractal Model",
+    "authors": [
+      "Sai Zhang",
+      "Jun Ruo Chen",
+      "Xian Xi Liu"
+    ],
+    "year": 2011,
+    "doi": "10.4028/www.scientific.net/amr.393-395.632",
+    "arxiv_id": "",
+    "venue": "Advanced Materials Research",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Zhang_2011, title={Calculation of Biological Material’s Shrinkage during Convective Drying Using Fractal Model}, volume={393-395}, ISSN={1662-8985}, url={http://dx.doi.org/10.4028/www.scientific.net/amr.393-395.632}, DOI={10.4028/www.scientific.net/amr.393-395.632}, journal={Advanced Materials Research}, publisher={Trans Tech Publications, Ltd.}, author={Zhang, Sai and Chen, Jun Ruo and Liu, Xian Xi}, year={2011}, month=Nov, pages={632–636} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.635,
+    "match_label": "good"
+  }
+]
+
+>>> QUERY: moving boundary problem drying Landau transformation front fixing
+[
+  {
+    "title": "Convergence-Focused Numerical Solutions for Nonlinear Moving Boundary Models of Rheumatoid Arthritis",
+    "authors": [
+      "F. Nasresfahani",
+      "M. R. Eslahchi"
+    ],
+    "year": 2026,
+    "doi": "10.1142/s0219876226500027",
+    "arxiv_id": "",
+    "venue": "International Journal of Computational Methods",
+    "citation_count": 0,
+    "abstract": "We present a novel numerical framework to address a nonlinear moving boundary mathematical model of rheumatoid arthritis. This complex model integrates two hyperbolic equations, one elliptic equation, and one ordinary differential equation, all intricately coupled to capture the dynamics of the disease. Our approach begins with the implementation of the front-fixing transformation, which effectively stabilizes the free boundary and transforms the problem into a more manageable form. Leveraging a",
+    "bibtex": "@article{Nasresfahani_2026, title={Convergence–Focused Numerical Solutions for Nonlinear Moving Boundary Models of Rheumatoid Arthritis}, volume={23}, ISSN={1793-6969}, url={http://dx.doi.org/10.1142/s0219876226500027}, DOI={10.1142/s0219876226500027}, number={07}, journal={International Journal of Computational Methods}, publisher={World Scientific Pub Co Pte Ltd}, author={Nasresfahani, F. and Eslahchi, M. R.}, year={2026}, month=Feb }",
+    "bibtex_source": "crossref",
+    "match_score": 0.194,
+    "match_label": "low"
+  },
+  {
+    "title": "A random free-boundary diffusive logistic differential model: Numerical analysis, computing and simulation",
+    "authors": [
+      "M. Consuelo Casabán",
+      "Rafael Company",
+      "V. Egorova",
+      "Lucas Jódar"
+    ],
+    "year": 2024,
+    "doi": "10.1016/j.matcom.2024.02.016",
+    "arxiv_id": "2501.09200",
+    "venue": "Mathematics and Computers in Simulation",
+    "citation_count": 4,
+    "abstract": "A free boundary diffusive logistic model finds application in many different fields from biological invasion to wildfire propagation. However, many of these processes show a random nature and contain uncertainties in the parameters. In this paper we extend the diffusive logistic model with unknown moving front to the random scenario by assuming that the involved parameters have a finite degree of randomness. The resulting mathematical model becomes a random free boundary partial differential pro",
+    "bibtex": "@article{Casab_n_2024, title={A random free-boundary diffusive logistic differential model: Numerical analysis, computing and simulation}, volume={221}, ISSN={0378-4754}, url={http://dx.doi.org/10.1016/j.matcom.2024.02.016}, DOI={10.1016/j.matcom.2024.02.016}, journal={Mathematics and Computers in Simulation}, publisher={Elsevier BV}, author={Casabán, M.-C. and Company, R. and Egorova, V.N. and Jódar, L.}, year={2024}, month=July, pages={55–78} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.096,
+    "match_label": "low"
+  },
+  {
+    "title": "A Front‐Fixing Numerical Method for a Free‐Boundary Nonlocal Diffusion Logistic Model",
+    "authors": [
+      "M. Casabán",
+      "R. Company",
+      "V. Egorova",
+      "M. Fakharany",
+      "L. Jódar"
+    ],
+    "year": 2025,
+    "doi": "10.1111/sapm.70094",
+    "arxiv_id": "",
+    "venue": "Studies in applied mathematics (Cambridge)",
+    "citation_count": 3,
+    "abstract": "This paper introduces a numerical method, based on a front‐fixing transformation together with a combination of the explicit finite difference schemes with the quadrature rules, to solve the Fisher‐Kolmogorov, Petrovsky and Piskunov (KPP) population model that incorporates the combined complexities of nonlocal diffusion and free boundaries. The model utilizes nonlocal diffusion to capture intricate, potentially long‐range, dispersal patterns of species. We propose two‐stage front‐fixing transfor",
+    "bibtex": "@article{Casab_n_2025, title={A Front‐Fixing Numerical Method for a Free‐Boundary Nonlocal Diffusion Logistic Model}, volume={155}, ISSN={1467-9590}, url={http://dx.doi.org/10.1111/sapm.70094}, DOI={10.1111/sapm.70094}, number={2}, journal={Studies in Applied Mathematics}, publisher={Wiley}, author={Casabán, M.‐C. and Company, R. and Egorova, V. and Fakharany, M. and Jódar, L.}, year={2025}, month=Aug }",
+    "bibtex_source": "crossref",
+    "match_score": 0.0,
+    "match_label": "low"
+  }
+]
+
+>>> QUERY: Kirchhoff transformation nonlinear diffusion coefficient
+[
+  {
+    "title": "The Kirchhoff Transformation and the Fick’s Second Law with Concentration-dependent Diffusion Coefficient",
+    "authors": [
+      "R. Gama",
+      "R. Gama"
+    ],
+    "year": 2021,
+    "doi": "10.37394/232012.2021.16.9",
+    "arxiv_id": "",
+    "venue": "WSEAS Transactions on Heat and Mass Transfer",
+    "citation_count": 5,
+    "abstract": "In this work it is considered the Fick’s second law in a context in which the diffusion coefficient depends on the concentration. It is employed the Kirchhoff transformation in order to simplify the mathematical structure of the Fick’s second law, giving rise to a more convenient description. In order to provide a general protocol, the diffusion coefficient will be assumed a piecewise constant function of the concentration. Exact formulas are presented for both the Kirchhoff transformation and i",
+    "bibtex": "@article{Gama_2021, title={The Kirchhoff Transformation and the Fick’s Second Law with Concentration-dependent Diffusion Coefficient}, volume={16}, ISSN={1790-5044}, url={http://dx.doi.org/10.37394/232012.2021.16.9}, DOI={10.37394/232012.2021.16.9}, journal={WSEAS TRANSACTIONS ON HEAT AND MASS TRANSFER}, publisher={World Scientific and Engineering Academy and Society (WSEAS)}, author={Gama, R. M. S. and Gama, R. Pazetto S.}, year={2021}, month=July, pages={59–67} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.603,
+    "match_label": "good"
+  },
+  {
+    "title": "Finite Difference Methods Based on the Kirchhoff Transformation and Time Linearization for the Numerical Solution of Nonlinear Reaction-Diffusion Equations",
+    "authors": [
+      "J. I. Ramos"
+    ],
+    "year": 2024,
+    "doi": "10.3390/computation12110218",
+    "arxiv_id": "",
+    "venue": "De Computis",
+    "citation_count": 1,
+    "abstract": "Four formulations based on the Kirchhoff transformation and time linearization for the numerical study of one-dimensional reaction–diffusion equations, whose heat capacity, thermal inertia and reaction rate are only functions of the temperature, are presented. The formulations result in linear, two-point boundary-value problems for the temperature, energy or heat potential, and may be solved by either discretizing the second-order spatial derivative or piecewise analytical integration. In both c",
+    "bibtex": "@article{Ramos_2024, title={Finite Difference Methods Based on the Kirchhoff Transformation and Time Linearization for the Numerical Solution of Nonlinear Reaction–Diffusion Equations}, volume={12}, ISSN={2079-3197}, url={http://dx.doi.org/10.3390/computation12110218}, DOI={10.3390/computation12110218}, number={11}, journal={Computation}, publisher={MDPI AG}, author={Ramos, Juan I.}, year={2024}, month=Nov, pages={218} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.56,
+    "match_label": "partial"
+  },
+  {
+    "title": "A diffusion-type problem with variable diffusion coefficient in multi-layer slab",
+    "authors": [
+      "K. Chang"
+    ],
+    "year": 1992,
+    "doi": "10.1016/0735-1933(92)90019-E",
+    "arxiv_id": "",
+    "venue": "International Communications in Heat and Mass Transfer",
+    "citation_count": 1,
+    "abstract": "",
+    "bibtex": "@article{Chang_1992, title={A diffusion-type problem with variable diffusion coefficient in multi-layer slab}, volume={19}, ISSN={0735-1933}, url={http://dx.doi.org/10.1016/0735-1933(92)90019-E}, DOI={10.1016/0735-1933(92)90019-e}, number={6}, journal={International Communications in Heat and Mass Transfer}, publisher={Elsevier BV}, author={Chang, K.C.}, year={1992}, month=Nov, pages={841–849} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.302,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: physics informed neural network drying shrinking domain
+[
+  {
+    "title": "Initialization-Enhanced Physics-Informed Neural Network with Domain Decomposition (Idpinn)",
+    "authors": [
+      "Chenhao Si",
+      "Ming Yan"
+    ],
+    "year": null,
+    "doi": "10.2139/ssrn.4872043",
+    "arxiv_id": "",
+    "venue": "",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Si_2024, title={Initialization-Enhanced Physics-Informed Neural Network with Domain Decomposition (Idpinn)}, url={http://dx.doi.org/10.2139/ssrn.4872043}, DOI={10.2139/ssrn.4872043}, publisher={Elsevier BV}, author={Si, Chenhao and Yan, Ming}, year={2024} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.745,
+    "match_label": "good"
+  },
+  {
+    "title": "A Physics-Informed Neural-Network-Based Multi-Domain Computational Model to Investigate Nonlinear and Heterogenous Shrinkage of Plant Cells During Drying",
+    "authors": [
+      "Chanaka Batuwatta-Gamage",
+      "Charith Rathnayaka",
+      "H.C.P. Karunasena",
+      "Hyogu Jeong",
+      "M.A. Karim",
+      "Yuantong Gu"
+    ],
+    "year": null,
+    "doi": "10.2139/ssrn.4656338",
+    "arxiv_id": "",
+    "venue": "",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Batuwatta_Gamage_2023, title={A Physics-Informed Neural-Network-Based Multi-Domain Computational Model to Investigate Nonlinear and Heterogenous Shrinkage of Plant Cells During Drying}, url={http://dx.doi.org/10.2139/ssrn.4656338}, DOI={10.2139/ssrn.4656338}, publisher={Elsevier BV}, author={Batuwatta-Gamage, Chanaka and Rathnayaka, Charith and Karunasena, H.C.P. and Jeong, Hyogu and Karim, M.A. and Gu, Yuantong}, year={2023} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.629,
+    "match_label": "good"
+  },
+  {
+    "title": "SDD-PINN: Physics-informed neural network for single droplet drying",
+    "authors": [
+      "Narjes Malekjani",
+      "Andreas Bück",
+      "Abdolreza Kharaghani",
+      "Evangelos Tsotsas"
+    ],
+    "year": null,
+    "doi": "10.2139/ssrn.5749490",
+    "arxiv_id": "",
+    "venue": "",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Malekjani_2025, title={SDD-PINN: Physics-informed neural network for single droplet drying}, url={http://dx.doi.org/10.2139/ssrn.5749490}, DOI={10.2139/ssrn.5749490}, publisher={Elsevier BV}, author={Malekjani, Narjes and Bück, Andreas and Kharaghani, Abdolreza and Tsotsas, Evangelos}, year={2025} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.595,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: effective moisture diffusivity Arrhenius temperature dependence
+[
+  {
+    "title": "Moisture and temperature dependence of the moisture diffusivity",
+    "authors": [
+      "J. Drchalová",
+      "O. Kapičková",
+      "F. Vodák",
+      "T. Klečka"
+    ],
+    "year": 1990,
+    "doi": "10.1016/0017-9310(90)90236-n",
+    "arxiv_id": "",
+    "venue": "International Journal of Heat and Mass Transfer",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Drchalov__1990, title={Moisture and temperature dependence of the moisture diffusivity}, volume={33}, ISSN={0017-9310}, url={http://dx.doi.org/10.1016/0017-9310(90)90236-n}, DOI={10.1016/0017-9310(90)90236-n}, number={9}, journal={International Journal of Heat and Mass Transfer}, publisher={Elsevier BV}, author={Drchalová, J. and Kapičková, O. and Vodák, F. and Klečka, T.}, year={1990}, month=Sept, pages={2053–2055} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.578,
+    "match_label": "partial"
+  },
+  {
+    "title": "Effective Moisture Diffusivity in Porous Materials as a Function of Temperature and Moisture Content",
+    "authors": [
+      "C. H. Tong",
+      "D. B. Lund"
+    ],
+    "year": 1990,
+    "doi": "10.1021/bp00001a011",
+    "arxiv_id": "",
+    "venue": "Biotechnology Progress",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Tong_1990, title={Effective Moisture Diffusivity in Porous Materials as a Function of Temperature and Moisture Content}, volume={6}, ISSN={1520-6033}, url={http://dx.doi.org/10.1021/bp00001a011}, DOI={10.1021/bp00001a011}, number={1}, journal={Biotechnology Progress}, publisher={Wiley}, author={Tong, C. H. and Lund, D. B.}, year={1990}, month=Jan, pages={67–75} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.514,
+    "match_label": "partial"
+  },
+  {
+    "title": "Effect of moisture content, temperature, and absolute expansion ratio on the effective moisture diffusivity of swell-dried carrots and apples",
+    "authors": [
+      "Thu Ha Nguyen",
+      "Duc Quang Nguyen"
+    ],
+    "year": 2025,
+    "doi": "10.1007/s44187-025-00640-y",
+    "arxiv_id": "",
+    "venue": "Discover Food",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Nguyen_2025, title={Effect of moisture content, temperature, and absolute expansion ratio on the effective moisture diffusivity of swell-dried carrots and apples}, volume={5}, ISSN={2731-4286}, url={http://dx.doi.org/10.1007/s44187-025-00640-y}, DOI={10.1007/s44187-025-00640-y}, number={1}, journal={Discover Food}, publisher={Springer Science and Business Media LLC}, author={Nguyen, Thu Ha and Nguyen, Duc Quang}, year={2025}, month=Dec }",
+    "bibtex_source": "crossref",
+    "match_score": 0.484,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: Fickian diffusion thin layer drying model
+[
+  {
+    "title": "COUPLING STATISTICAL DESIGN AND DIFFUSION-BASED MODELING TO INVESTIGATE DRYING KINETICS AND EFFECTIVE MOISTURE TRANSPORT",
+    "authors": [
+      "Thalyta Duarte",
+      "Francielly De Macedo",
+      "F. D. Da Costa",
+      "W. Adriano"
+    ],
+    "year": 2026,
+    "doi": "10.20438/ecs.v13i1.747",
+    "arxiv_id": "",
+    "venue": "Educação Ciência e Saúde",
+    "citation_count": 0,
+    "abstract": "Drying is a key unit operation in the processing of industrial residues, ensuring microbiological stability and preserving attributes relevant for subsequent applications. This study proposes a two-step framework integrating statistical optimization and mechanistic modeling to investigate and improve the drying performance of eggshell waste. First, a 2³ full factorial design evaluated the effects of temperature, particle size, and sample mass on total water loss, identifying temperature, sample ",
+    "bibtex": "@article{Duarte_2026, title={COUPLING STATISTICAL DESIGN AND DIFFUSION-BASED MODELING TO INVESTIGATE DRYING KINETICS AND EFFECTIVE MOISTURE TRANSPORT}, volume={13}, ISSN={2358-7504}, url={http://dx.doi.org/10.20438/ecs.v13i1.747}, DOI={10.20438/ecs.v13i1.747}, number={1}, journal={Educação Ciência e Saúde}, publisher={Biblioteca do Centro de Educacao e Saude (CES)}, author={Duarte, Thalyta and De Macedo, Francielly and Da Costa, Fernanda and ADRIANO, WELLINGTON}, year={2026}, month=June }",
+    "bibtex_source": "crossref",
+    "match_score": 0.244,
+    "match_label": "low"
+  },
+  {
+    "title": "Mathematical modelling of drying characteristics of blanched field pumpkin (Cucurbita pepo L) slices",
+    "authors": [
+      "T. O. Olurin",
+      "A. Adelekan",
+      "W. Olosunde"
+    ],
+    "year": 2012,
+    "doi": "",
+    "arxiv_id": "",
+    "venue": "Agricultural Engineering International: The CIGR Journal",
+    "citation_count": 22,
+    "abstract": "",
+    "bibtex": "@article{olurin_2012_mathematical,\n  title = {Mathematical modelling of drying characteristics of blanched field pumpkin (Cucurbita pepo L) slices},\n  author = {T. O. Olurin and A. Adelekan and W. Olosunde},\n  journal = {Agricultural Engineering International: The CIGR Journal},\n  year = {2012},\n  note = {[AUTO-GENERATED] Verify before submission}\n}",
+    "bibtex_source": "auto",
+    "match_score": 0.125,
+    "match_label": "low"
+  },
+  {
+    "title": "Drying Kinetics of Sandge, an Indian Traditional Food Adjunct in Air Convective Drying",
+    "authors": [
+      "R. Khedkar",
+      "A. S. Bawa"
+    ],
+    "year": 2016,
+    "doi": "10.22161/ijaers/3.10.12",
+    "arxiv_id": "",
+    "venue": "International Journal of Advanced Engineering Research and Science",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Khedkar_2016, title={Drying Kinetics of Sandge, an Indian Traditional Food Adjunct in Air Convective Drying}, volume={3}, ISSN={2456-1908}, url={http://dx.doi.org/10.22161/ijaers/3.10.12}, DOI={10.22161/ijaers/3.10.12}, number={10}, journal={International Journal of Advanced Engineering Research and Science}, publisher={AI Publications}, author={Khedkar, Renu and Bawa, Amarinder Singh}, year={2016}, pages={58–65} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.124,
+    "match_label": "low"
+  }
+]
+
+>>> QUERY: backward Euler implicit scheme stiff parabolic equation
+[
+  {
+    "title": "Semi-Implicit Euler-Maruyama Scheme for Stiff Stochastic Equations",
+    "authors": [
+      "Yaozhong Hu"
+    ],
+    "year": 1996,
+    "doi": "10.1007/978-1-4612-2450-1_9",
+    "arxiv_id": "",
+    "venue": "Stochastic Analysis and Related Topics V",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inbook{Hu_1996, title={Semi-Implicit Euler-Maruyama Scheme for Stiff Stochastic Equations}, ISBN={9781461224501}, url={http://dx.doi.org/10.1007/978-1-4612-2450-1_9}, DOI={10.1007/978-1-4612-2450-1_9}, booktitle={Stochastic Analysis and Related Topics V}, publisher={Birkhäuser Boston}, author={Hu, Yaozhong}, year={1996}, pages={183–202} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.476,
+    "match_label": "partial"
+  },
+  {
+    "title": "An implicit, conservative, zonal-boundary scheme for Euler equation calculations",
+    "authors": [
+      "M. RAI"
+    ],
+    "year": 1985,
+    "doi": "10.2514/6.1985-488",
+    "arxiv_id": "",
+    "venue": "23rd Aerospace Sciences Meeting",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inproceedings{RAI_1985, title={An implicit, conservative, zonal-boundary scheme for Euler equation calculations}, url={http://dx.doi.org/10.2514/6.1985-488}, DOI={10.2514/6.1985-488}, booktitle={23rd Aerospace Sciences Meeting}, publisher={American Institute of Aeronautics and Astronautics}, author={RAI, M.}, year={1985}, month=Jan }",
+    "bibtex_source": "crossref",
+    "match_score": 0.466,
+    "match_label": "partial"
+  },
+  {
+    "title": "On the error structure of the implicit Euler scheme applied to stiff systems of differential equations",
+    "authors": [
+      "W. Auzinger"
+    ],
+    "year": 1989,
+    "doi": "10.1007/bf02241856",
+    "arxiv_id": "",
+    "venue": "Computing",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Auzinger_1989, title={On the error structure of the implicit Euler scheme applied to stiff systems of differential equations}, volume={43}, ISSN={1436-5057}, url={http://dx.doi.org/10.1007/bf02241856}, DOI={10.1007/bf02241856}, number={2}, journal={Computing}, publisher={Springer Science and Business Media LLC}, author={Auzinger, W.}, year={1989}, month=June, pages={115–131} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.437,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: convective drying cylinder heat mass transfer numerical simulation
+[
+  {
+    "title": "Numerical Simulation of Heat and Mass Transfer during the Process of Convective Drying in Stagnant and Fluidized Beds",
+    "authors": [
+      "M. B. Stakic"
+    ],
+    "year": 2003,
+    "doi": "10.1615/heattransres.v34.i3-4.100",
+    "arxiv_id": "",
+    "venue": "Heat Transfer Research",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Stakic_2003, title={Numerical Simulation of Heat and Mass Transfer during the Process of Convective Drying in Stagnant and Fluidized Beds}, volume={34}, ISSN={1064-2285}, url={http://dx.doi.org/10.1615/heattransres.v34.i3-4.100}, DOI={10.1615/heattransres.v34.i3-4.100}, number={3-4}, journal={Heat Transfer Research}, publisher={Begell House}, author={Stakic, M. B.}, year={2003}, pages={13} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.69,
+    "match_label": "good"
+  },
+  {
+    "title": "Non-linear heat and mass transfer during convective drying of kaolin cylinder under non-steady conditions",
+    "authors": [
+      "Musielak Grzegorz",
+      "Banaszak Jacek"
+    ],
+    "year": null,
+    "doi": "10.1007/978-1-4020-5480-8_10",
+    "arxiv_id": "",
+    "venue": "Drying of Porous Materials",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inbook{Grzegorz, title={Non-linear heat and mass transfer during convective drying of kaolin cylinder under non-steady conditions}, ISBN={9781402054792}, url={http://dx.doi.org/10.1007/978-1-4020-5480-8_10}, DOI={10.1007/978-1-4020-5480-8_10}, booktitle={Drying of Porous Materials}, publisher={Springer Netherlands}, author={Grzegorz, Musielak and Jacek, Banaszak}, pages={121–134} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.591,
+    "match_label": "partial"
+  },
+  {
+    "title": "Numerical simulation of natural convective heat transfer and fluid flow around a heated cylinder inside an enclosure",
+    "authors": [
+      "D. G. Roychowdhury",
+      "Sarit K. Das",
+      "T. Sundararajan"
+    ],
+    "year": 2002,
+    "doi": "10.1007/s002310100210",
+    "arxiv_id": "",
+    "venue": "Heat and Mass Transfer",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Roychowdhury_2002, title={Numerical simulation of natural convective heat transfer and fluid flow around a heated cylinder inside an enclosure}, volume={38}, ISSN={1432-1181}, url={http://dx.doi.org/10.1007/s002310100210}, DOI={10.1007/s002310100210}, number={7-8}, journal={Heat and Mass Transfer}, publisher={Springer Science and Business Media LLC}, author={Roychowdhury, D. G. and Das, Sarit K. and Sundararajan, T.}, year={2002}, month=Aug, pages={565–576} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.583,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: Richardson extrapolation grid convergence study
+[
+  {
+    "title": "Grid Refinement Study with a UHCA Wing-Body Configuration Using Richardson Extrapolation and Grid Convergence Index GCI",
+    "authors": [
+      "M. Rakowitz"
+    ],
+    "year": 2002,
+    "doi": "10.1007/978-3-540-45466-3_36",
+    "arxiv_id": "",
+    "venue": "New Results in Numerical and Experimental Fluid Mechanics III",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inbook{Rakowitz_2002, title={Grid Refinement Study with a UHCA Wing-Body Configuration Using Richardson Extrapolation and Grid Convergence Index GCI}, ISBN={9783540454663}, url={http://dx.doi.org/10.1007/978-3-540-45466-3_36}, DOI={10.1007/978-3-540-45466-3_36}, booktitle={New Results in Numerical and Experimental Fluid Mechanics III}, publisher={Springer Berlin Heidelberg}, author={Rakowitz, M.}, year={2002}, pages={297–303} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.733,
+    "match_label": "good"
+  },
+  {
+    "title": "Optimized Mesh Zoning for Dam Bottom Outlet\n                    <scp>CFD</scp>\n                    Simulations Using Richardson Extrapolation and Grid Convergence Analysis",
+    "authors": [
+      "Mohammad Masoud Vaseti",
+      "Ali Akbar Akhtari",
+      "Reza Tarinejad"
+    ],
+    "year": 2026,
+    "doi": "10.1002/eng2.70800",
+    "arxiv_id": "",
+    "venue": "Engineering Reports",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Vaseti_2026, title={Optimized Mesh Zoning for Dam Bottom Outlet\n                    <scp>CFD</scp>\n                    Simulations Using Richardson Extrapolation and Grid Convergence Analysis}, volume={8}, ISSN={2577-8196}, url={http://dx.doi.org/10.1002/eng2.70800}, DOI={10.1002/eng2.70800}, number={6}, journal={Engineering Reports}, publisher={Wiley}, author={Vaseti, Mohammad Masoud and Akhtari, Ali Akbar and Tarinejad, Reza}, year={2026}, month=June }",
+    "bibtex_source": "crossref",
+    "match_score": 0.574,
+    "match_label": "partial"
+  },
+  {
+    "title": "HAD Simülasyonlarında Ağ Yakınsama İndeksi ve Richardson Ektrapolasyonun Uygulaması: DrivAer",
+    "authors": [
+      "Oğuz BAŞ",
+      "Mustafa Atakan AKAR",
+      "Coskun ÖZALP"
+    ],
+    "year": 2023,
+    "doi": "10.53433/yyufbed.1206050",
+    "arxiv_id": "",
+    "venue": "Yüzüncü Yıl Üniversitesi Fen Bilimleri Enstitüsü Dergisi",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{BA__2023, title={HAD Simülasyonlarında Ağ Yakınsama İndeksi ve Richardson Ektrapolasyonun Uygulaması: DrivAer}, volume={28}, ISSN={1300-5413}, url={http://dx.doi.org/10.53433/yyufbed.1206050}, DOI={10.53433/yyufbed.1206050}, number={3}, journal={Yüzüncü Yıl Üniversitesi Fen Bilimleri Enstitüsü Dergisi}, publisher={Van Yuzuncu Yil University}, author={BAŞ, Oğuz and AKAR, Mustafa Atakan and ÖZALP, Coskun}, year={2023}, month=Dec, pages={1127–1138} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.149,
+    "match_label": "low"
+  }
+]
+
+>>> QUERY: Stefan problem front fixing method numerical solution
+[
+  {
+    "title": "Numerical solution of the one phase 1D fractional Stefan problem using the front fixing method",
+    "authors": [
+      "Marek Błasik",
+      "Małgorzata Klimek"
+    ],
+    "year": 2015,
+    "doi": "10.1002/mma.3292",
+    "arxiv_id": "",
+    "venue": "Mathematical Methods in the Applied Sciences",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{B_asik_2014, title={Numerical solution of the one phase 1D fractional Stefan problem using the front fixing method}, volume={38}, ISSN={1099-1476}, url={http://dx.doi.org/10.1002/mma.3292}, DOI={10.1002/mma.3292}, number={15}, journal={Mathematical Methods in the Applied Sciences}, publisher={Wiley}, author={Błasik, Marek and Klimek, Małgorzata}, year={2014}, month=Nov, pages={3214–3228} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.8,
+    "match_label": "good"
+  },
+  {
+    "title": "On the Numerical Solution of the One-dimensional Stefan Problem by Newton's Method",
+    "authors": [
+      "DIETRICH BRAESS"
+    ],
+    "year": 1983,
+    "doi": "10.1093/imanum/3.2.161",
+    "arxiv_id": "",
+    "venue": "IMA Journal of Numerical Analysis",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{BRAESS_1983, title={On the Numerical Solution of the One-dimensional Stefan Problem by Newton’s Method}, volume={3}, ISSN={1464-3642}, url={http://dx.doi.org/10.1093/imanum/3.2.161}, DOI={10.1093/imanum/3.2.161}, number={2}, journal={IMA Journal of Numerical Analysis}, publisher={Oxford University Press (OUP)}, author={BRAESS, DIETRICH}, year={1983}, pages={161–172} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.571,
+    "match_label": "partial"
+  },
+  {
+    "title": "Numerical methods for the solution of the Stefan problem",
+    "authors": [],
+    "year": 2016,
+    "doi": "10.1090/mmono/027/13",
+    "arxiv_id": "",
+    "venue": "Translations of Mathematical Monographs",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inbook{2016, ISBN={9781470444440}, ISSN={2472-5137}, url={http://dx.doi.org/10.1090/mmono/027/13}, DOI={10.1090/mmono/027/13}, booktitle={The Stefan Problem}, publisher={American Mathematical Society}, year={2016}, month=May, pages={324–350} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.488,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: volume shrinkage core model drying kinetics
+[
+  {
+    "title": "DRYING DEFORMABLE MEDIA KINETICS, SHRINKAGE AND STRESSES",
+    "authors": [
+      "A.A.J. Ketelaars"
+    ],
+    "year": 1994,
+    "doi": "10.1080/07373939408960008",
+    "arxiv_id": "",
+    "venue": "Drying Technology",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Ketelaars_1994, title={DRYING DEFORMABLE MEDIA KINETICS, SHRINKAGE AND STRESSES}, volume={12}, ISSN={1532-2300}, url={http://dx.doi.org/10.1080/07373939408960008}, DOI={10.1080/07373939408960008}, number={4}, journal={Drying Technology}, publisher={Informa UK Limited}, author={Ketelaars, A.A.J.}, year={1994}, month=Jan, pages={983–987} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.42,
+    "match_label": "partial"
+  },
+  {
+    "title": "Shrinkage Kinetics during Convective Drying of Selected Berries",
+    "authors": [
+      "V. A. Shulyak",
+      "L. A. Izotova"
+    ],
+    "year": 2009,
+    "doi": "10.1080/07373930802686123",
+    "arxiv_id": "",
+    "venue": "Drying Technology",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Shulyak_2009, title={Shrinkage Kinetics during Convective Drying of Selected Berries}, volume={27}, ISSN={1532-2300}, url={http://dx.doi.org/10.1080/07373930802686123}, DOI={10.1080/07373930802686123}, number={3}, journal={Drying Technology}, publisher={Informa UK Limited}, author={Shulyak, V. A. and Izotova, L. A.}, year={2009}, month=Feb, pages={495–501} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.409,
+    "match_label": "partial"
+  },
+  {
+    "title": "COMPARISON OF DRYING SHRINKAGE AND DRYING CREEP KINETICS IN CONCRETE",
+    "authors": [
+      "Lenka Dohnalová",
+      "Petr Havlásek"
+    ],
+    "year": 2018,
+    "doi": "10.14311/app.2018.15.0012",
+    "arxiv_id": "",
+    "venue": "Acta Polytechnica CTU Proceedings",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Dohnalov__2018, title={COMPARISON OF DRYING SHRINKAGE AND DRYING CREEP KINETICS IN CONCRETE}, volume={15}, ISSN={2336-5382}, url={http://dx.doi.org/10.14311/app.2018.15.0012}, DOI={10.14311/app.2018.15.0012}, journal={Acta Polytechnica CTU Proceedings}, publisher={Czech Technical University in Prague - Central Library}, author={Dohnalová, Lenka and Havlásek, Petr}, year={2018}, month=Dec, pages={12–19} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.4,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: moisture transport wood drying diffusion coefficient
+[
+  {
+    "title": "NONDESTRUCTIVE MEASUREMENT OF MOISTURE DIFFUSION COEFFICIENT IN WOOD DRYING",
+    "authors": [
+      "KANAGAWA Yasushi"
+    ],
+    "year": 1992,
+    "doi": "10.1080/07373939208916515",
+    "arxiv_id": "",
+    "venue": "Drying Technology",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Yasushi_1992, title={NONDESTRUCTIVE MEASUREMENT OF MOISTURE DIFFUSION COEFFICIENT IN WOOD DRYING}, volume={10}, ISSN={1532-2300}, url={http://dx.doi.org/10.1080/07373939208916515}, DOI={10.1080/07373939208916515}, number={5}, journal={Drying Technology}, publisher={Informa UK Limited}, author={Yasushi, KANAGAWA}, year={1992}, month=Dec, pages={1231–1248} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.7,
+    "match_label": "good"
+  },
+  {
+    "title": "Research on Calibration of Moisture Diffusion Coefficient for Wood Drying Based on Drying Simulation",
+    "authors": [
+      "JiBing Qiao",
+      "ZhaoXin Meng"
+    ],
+    "year": null,
+    "doi": "10.21203/rs.3.rs-2968663/v1",
+    "arxiv_id": "",
+    "venue": "",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Qiao_2023, title={Research on Calibration of Moisture Diffusion Coefficient for Wood Drying Based on Drying Simulation}, url={http://dx.doi.org/10.21203/rs.3.rs-2968663/v1}, DOI={10.21203/rs.3.rs-2968663/v1}, publisher={Springer Science and Business Media LLC}, author={Qiao, JiBing and Meng, ZhaoXin}, year={2023}, month=May }",
+    "bibtex_source": "crossref",
+    "match_score": 0.654,
+    "match_label": "good"
+  },
+  {
+    "title": "Determination and use of moisture diffusion coefficient to characterize drying of northern red oak (Quercus rubra)",
+    "authors": [
+      "W.T. Simpson"
+    ],
+    "year": 1993,
+    "doi": "10.1007/bf00193863",
+    "arxiv_id": "",
+    "venue": "Wood Science and Technology",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Simpson_1993, title={Determination and use of moisture diffusion coefficient to characterize drying of northern red oak (Quercus rubra)}, volume={27}, ISSN={1432-5225}, url={http://dx.doi.org/10.1007/bf00193863}, DOI={10.1007/bf00193863}, number={6}, journal={Wood Science and Technology}, publisher={Springer Science and Business Media LLC}, author={Simpson, W.T.}, year={1993}, month=Sept }",
+    "bibtex_source": "crossref",
+    "match_score": 0.494,
+    "match_label": "partial"
+  }
+]
+
+>>> QUERY: finite element modeling coupled heat mass transfer food drying
+[
+  {
+    "title": "NONLINEAR FINITE ELEMENT ANALYSIS OF COUPLED HEAT AND MASS TRANSFER PROBLEMS WITH AN APPLICATION TO TIMBER DRYING*",
+    "authors": [
+      "J. Irudayaraj",
+      "K. Haghighi",
+      "R.L. Stroshine"
+    ],
+    "year": 1990,
+    "doi": "10.1080/07373939008959912",
+    "arxiv_id": "",
+    "venue": "Drying Technology",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Irudayaraj_1990, title={NONLINEAR FINITE ELEMENT ANALYSIS OF COUPLED HEAT AND MASS TRANSFER PROBLEMS WITH AN APPLICATION TO TIMBER DRYING*}, volume={8}, ISSN={1532-2300}, url={http://dx.doi.org/10.1080/07373939008959912}, DOI={10.1080/07373939008959912}, number={4}, journal={Drying Technology}, publisher={Informa UK Limited}, author={Irudayaraj, J. and Haghighi, K. and Stroshine, R.L.}, year={1990}, month=Jan, pages={731–749} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.52,
+    "match_label": "partial"
+  },
+  {
+    "title": "Heat and Mass Transfer during Food Drying",
+    "authors": [
+      "Ibrahim Dincer"
+    ],
+    "year": 2010,
+    "doi": "10.1201/9781420053548-13",
+    "arxiv_id": "",
+    "venue": "Mathematical Modeling of Food Processing",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inbook{Dincer_2010, title={Heat and Mass Transfer during Food Drying}, ISBN={9780429142178}, url={http://dx.doi.org/10.1201/9781420053548-13}, DOI={10.1201/9781420053548-13}, booktitle={Mathematical Modeling of Food Processing}, publisher={CRC Press}, author={Dincer, Ibrahim}, year={2010}, month=May, pages={253–300} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.515,
+    "match_label": "partial"
+  },
+  {
+    "title": "Convective Drying Analysis of Different Shaped Moving Porous Objects in a Channel with Area Expansion by Using Finite Element Method",
+    "authors": [
+      "Fatih Selimefendigil",
+      "Seda Özcan Çoban",
+      "Hakan F. Öztop"
+    ],
+    "year": 2022,
+    "doi": "10.1201/9781003159520-4",
+    "arxiv_id": "",
+    "venue": "Advanced Computational Techniques for Heat and Mass Transfer in Food Processing",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@inbook{Selimefendigil_2022, title={Convective Drying Analysis of Different Shaped Moving Porous Objects in a Channel with Area Expansion by Using Finite Element Method}, ISBN={9781003159520}, url={http://dx.doi.org/10.1201/9781003159520-4}, DOI={10.1201/9781003159520-4}, booktitle={Advanced Computational Techniques for Heat and Mass Transfer in Food Processing}, publisher={CRC Press}, author={Selimefendigil, Fatih and Özcan Çoban, Seda and Öztop, Hakan F.}, year={2022}, month=Jan, pages={67–90} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.248,
+    "match_label": "low"
+  }
+]
+
+>>> QUERY: Biot number mass transfer internal diffusion controlled drying
+[
+  {
+    "title": "Effect of the Mass Transfer Biot Number on Moisture Desorption and Hygrothermal Stress in QFN Packages",
+    "authors": [
+      "Lifan Ma",
+      "Jun Wang"
+    ],
+    "year": 2026,
+    "doi": "10.3390/electronics15173835",
+    "arxiv_id": "",
+    "venue": "Electronics",
+    "citation_count": 0,
+    "abstract": "Package-level hygrothermal simulations commonly represent drying at epoxy molding compound (EMC) surfaces using idealized boundary conditions, which may not fully capture the coupled effects of bulk moisture diffusion and surface evaporation during reflow soldering and thermal cycling. This study developed a diffusion- and evaporation-based hygrothermal mechanical model for quad-flat no-lead (QFN) packages by incorporating an evaporation boundary formulation with moisture transport parameters ob",
+    "bibtex": "@article{Ma_2026, title={Effect of the Mass Transfer Biot Number on Moisture Desorption and Hygrothermal Stress in QFN Packages}, volume={15}, ISSN={2079-9292}, url={http://dx.doi.org/10.3390/electronics15173835}, DOI={10.3390/electronics15173835}, number={17}, journal={Electronics}, publisher={MDPI AG}, author={Ma, Lifan and Wang, Jun}, year={2026}, month=Aug, pages={3835} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.53,
+    "match_label": "partial"
+  },
+  {
+    "title": "Influence of Internal and External Resistances to Mass Transfer on the constant drying rate period in high-moisture foods",
+    "authors": [
+      "S. A. Giner"
+    ],
+    "year": 2009,
+    "doi": "10.1016/J.BIOSYSTEMSENG.2008.09.022",
+    "arxiv_id": "",
+    "venue": "Biosystems Engineering",
+    "citation_count": 24,
+    "abstract": "",
+    "bibtex": "@article{Giner_2009, title={Influence of Internal and External Resistances to Mass Transfer on the constant drying rate period in high-moisture foods}, volume={102}, ISSN={1537-5110}, url={http://dx.doi.org/10.1016/J.BIOSYSTEMSENG.2008.09.022}, DOI={10.1016/j.biosystemseng.2008.09.022}, number={1}, journal={Biosystems Engineering}, publisher={Elsevier BV}, author={Giner, Sergio A.}, year={2009}, month=Jan, pages={90–94} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.37,
+    "match_label": "partial"
+  },
+  {
+    "title": "Kinetics, thermodynamics, and diffusion‐controlled mass transfer in the extraction of phenolics from\n \n Laurus nobilis\n \n leaves with screening and multi‐response optimization",
+    "authors": [
+      "Okan Tunç",
+      "Ebru Kurtulbaş",
+      "İrem Toprakçı",
+      "Selin Şahin"
+    ],
+    "year": 2026,
+    "doi": "10.1002/cjce.70390",
+    "arxiv_id": "",
+    "venue": "Canadian Journal of Chemical Engineering",
+    "citation_count": 0,
+    "abstract": "\n \n Laurus nobilis\n leaves have phenolic and flavonoid compounds with strong antioxidant properties. However, the studies on their extraction mechanisms are limited. This work comprehensively evaluated the extraction process through kinetics, thermodynamics, mass transfer, and statistical optimization. Kinetic modelling revealed that the pseudo‐first‐order (PFO) model best fitted the data, indicating a diffusion‐controlled extraction with a very low activation energy (\n E\n a\n  = 1.27 kJ mol\n −1\n",
+    "bibtex": "@article{Tun__2026, title={Kinetics, thermodynamics, and diffusion‐controlled mass transfer in the extraction of phenolics from\n                    <scp>\n                      <i>Laurus nobilis</i>\n                    </scp>\n                    leaves with screening and multi‐response optimization}, ISSN={1939-019X}, url={http://dx.doi.org/10.1002/cjce.70390}, DOI={10.1002/cjce.70390}, journal={The Canadian Journal of Chemical Engineering}, publisher={Wiley}, author={Tunç, Okan and Kurtulbaş, Ebru and Toprakçı, İrem and Şahin, Selin}, year={2026}, month=Apr }",
+    "bibtex_source": "crossref",
+    "match_score": 0.182,
+    "match_label": "low"
+  }
+]
+
+>>> QUERY: Picard iteration nonlinear diffusion numerical
+[
+  {
+    "title": "Multistage Numerical Picard Iteration Methods for Nonlinear Volterra Integral Equations of the Second Kind",
+    "authors": [
+      "Lian Chen",
+      "Junsheng Duan"
+    ],
+    "year": 2015,
+    "doi": "10.4236/apm.2015.511061",
+    "arxiv_id": "",
+    "venue": "Advances in Pure Mathematics",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Chen_2015, title={Multistage Numerical Picard Iteration Methods for Nonlinear Volterra Integral Equations of the Second Kind}, volume={05}, ISSN={2160-0384}, url={http://dx.doi.org/10.4236/apm.2015.511061}, DOI={10.4236/apm.2015.511061}, number={11}, journal={Advances in Pure Mathematics}, publisher={Scientific Research Publishing, Inc.}, author={Chen, Lian and Duan, Junsheng}, year={2015}, pages={672–682} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.587,
+    "match_label": "partial"
+  },
+  {
+    "title": "Adaptive combination algorithm of Picard and upwind-Newton (PUN) iteration for solving nonlinear diffusion equations",
+    "authors": [
+      "Yuan Guangwei",
+      "Hang Xudeng"
+    ],
+    "year": 2025,
+    "doi": "10.1360/ssm-2023-0324",
+    "arxiv_id": "",
+    "venue": "SCIENTIA SINICA Mathematica",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Guangwei_2024, title={Adaptive combination algorithm of Picard and upwind-Newton (PUN) iteration for solving nonlinear diffusion equations}, volume={55}, ISSN={1674-7216}, url={http://dx.doi.org/10.1360/ssm-2023-0324}, DOI={10.1360/ssm-2023-0324}, number={6}, journal={SCIENTIA SINICA Mathematica}, publisher={Science China Press., Co. Ltd.}, author={Guangwei, Yuan and Xudeng, Hang}, year={2024}, month=Apr, pages={1159} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.58,
+    "match_label": "partial"
+  },
+  {
+    "title": "Bifurcation &amp; chaos in nonlinear structural dynamics: Novel &amp; highly efficient optimal-feedback accelerated Picard iteration algorithms",
+    "authors": [
+      "Xuechuan Wang",
+      "Weicheng Pei",
+      "Satya N. Atluri"
+    ],
+    "year": 2018,
+    "doi": "10.1016/j.cnsns.2018.05.008",
+    "arxiv_id": "",
+    "venue": "Communications in Nonlinear Science and Numerical Simulation",
+    "citation_count": 0,
+    "abstract": "",
+    "bibtex": "@article{Wang_2018, title={Bifurcation &amp; chaos in nonlinear structural dynamics: Novel &amp; highly efficient optimal-feedback accelerated Picard iteration algorithms}, volume={65}, ISSN={1007-5704}, url={http://dx.doi.org/10.1016/j.cnsns.2018.05.008}, DOI={10.1016/j.cnsns.2018.05.008}, journal={Communications in Nonlinear Science and Numerical Simulation}, publisher={Elsevier BV}, author={Wang, Xuechuan and Pei, Weicheng and Atluri, Satya N.}, year={2018}, month=Dec, pages={54–69} }",
+    "bibtex_source": "crossref",
+    "match_score": 0.427,
+    "match_label": "partial"
+  }
+]
+
+DONE_FETCHING

@@ -1,0 +1,178 @@
+% ===================================================================
+% 数据图与表格的 LaTeX 引用片段（paper-figure 步骤产出）
+% 用法：把需要的 float 复制到正文对应位置，或 \input 后按 \ref 交叉引用。
+% 依赖：graphicx, booktabs, float（[H]）；编译器 XeLaTeX。
+% 图片路径以 figures/ 为前缀，若正文与 figures/ 同级则无需修改。
+% ⛔ 流程图/架构图（fig_roadmap 等）与情景示意图（fig_scene）由
+%    paper-figure-html / GPTIMG 步骤产出，不在本文件内。
+% ===================================================================
+
+% ---------- 公共前置：数据与参数 ----------
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_env_driving.pdf}
+  \caption{附件1 热风温度与空气含湿量的双轴时序}
+  \label{fig:env_driving}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_radius_shrink.pdf}
+  \caption{附件2 半径收缩的 PCHIP 插值曲线与收缩速率}
+  \label{fig:radius_shrink}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_diffusivity_range.pdf}
+  \caption{三套附录扩散系数的量级对比}
+  \label{fig:diffusivity_range}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_diffusivity_contour.pdf}
+  \caption{附录3 扩散系数 $D(C,T)$ 的二维响应面}
+  \label{fig:diffusivity_contour}
+\end{figure}
+
+% ---------- 问题1：预热段 ----------
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_field_heatmap_p1.pdf}
+  \caption{问题1 温度场与含水率场的时空演化}
+  \label{fig:field_heatmap_p1}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_radial_profiles.pdf}
+  \caption{问题1 温度剖面与问题2 含水率剖面}
+  \label{fig:radial_profiles}
+\end{figure}
+
+% ---------- 问题2：变物性耦合 ----------
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_field_heatmap_p2.pdf}
+  \caption{问题2 含水率场与边缘剖面}
+  \label{fig:field_heatmap_p2}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_temp_contour_p2.pdf}
+  \caption{问题2 温度场等值线与 49.9 ℃ 等温线}
+  \label{fig:temp_contour_p2}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_timescale_split.pdf}
+  \caption{问题2 传热与传质的时间尺度分离}
+  \label{fig:timescale_split}
+\end{figure}
+
+% ---------- 问题3：长时程与达标判据 ----------
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_drying_curve.pdf}
+  \caption{问题3 干燥曲线与达标阈值首次穿越}
+  \label{fig:drying_curve}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_ridgeline_profile.pdf}
+  \caption{问题3 各时刻径向含水率剖面的堆叠演化}
+  \label{fig:ridgeline_profile}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_stage_rate.pdf}
+  \caption{问题3 中心含水率每 6 h 的阶段降幅}
+  \label{fig:stage_rate}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_surface_3d.pdf}
+  \caption{问题3 含水率时空曲面与达标阈值平面}
+  \label{fig:surface_3d}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_biot_regime.pdf}
+  \caption{问题3 传质毕奥数的控制机制转换}
+  \label{fig:biot_regime}
+\end{figure}
+
+% ---------- 问题4：动边界 ----------
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_shrink_field.pdf}
+  \caption{问题4 收缩域含水率场与移动边界}
+  \label{fig:shrink_field}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_shrink_evidence.pdf}
+  \caption{收缩方式假设的独立数据检验}
+  \label{fig:shrink_evidence}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_orthogonal_waterfall.pdf}
+  \caption{问题4 与问题3 差异的正交分解}
+  \label{fig:orthogonal_waterfall}
+\end{figure}
+
+% ---------- 模型检验 ----------
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_analytic_validation.pdf}
+  \caption{Bessel 级数解析解与数值解的逐点对照}
+  \label{fig:analytic_validation}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_convergence.pdf}
+  \caption{空间与时间离散的收敛阶验证}
+  \label{fig:convergence}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_conservation.pdf}
+  \caption{守恒与收敛类校核残差的量级总览}
+  \label{fig:conservation}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_interface_scheme.pdf}
+  \caption{界面平均方式对达标时刻的影响}
+  \label{fig:interface_scheme}
+\end{figure}
+
+% ---------- 灵敏度分析 ----------
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,height=0.8\textheight,keepaspectratio]{figures/fig_sensitivity_tornado.pdf}
+  \caption{各假设扰动对达标时刻的相对影响}
+  \label{fig:sensitivity_tornado}
+\end{figure}
+
+% ===================================================================
+% 表格
+% ===================================================================
+\input{figures/TABLE_main_results.tex}
+\input{figures/TABLE_data_stats.tex}
+\input{figures/TABLE_properties.tex}
+\input{figures/TABLE_verification.tex}
+\input{figures/TABLE_sensitivity.tex}

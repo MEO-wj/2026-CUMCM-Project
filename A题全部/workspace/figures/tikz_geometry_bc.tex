@@ -1,0 +1,90 @@
+% 图契约
+% purpose: 读者应能回答——药材为何可简化为一维轴对称柱体，表面与中心各施加什么边界条件
+% topology: geometry
+% reading_direction: coordinate-based
+% node_roles: 实体柱体、对称轴、表面、外部热风
+% edge_roles: 对流通量、几何尺寸、对称约束
+% paper_context: 模型假设一节，栏宽插入，与后续网格图共用同一符号体系
+% visual_encoding: 形状承担几何，线型区分实体/辅助/对称轴，强调色仅标注两条 Robin 条件
+% style_family: G2
+% annotation_policy: minimal
+% result_policy: symbolic
+% final_width: column
+% print_mode: both
+% MH-TIKZ-ABSOLUTE-OK: 坐标直接对应柱体的物理几何位置与半径方向
+\documentclass[border=3pt,11pt]{standalone}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,decorations.pathmorphing}
+
+\definecolor{paperInk}{HTML}{111111}
+\definecolor{paperAccent}{HTML}{3B549C}
+\definecolor{paperGuide}{HTML}{4A4A4A}
+\definecolor{paperPanel}{HTML}{F2F4F9}
+
+\begin{document}
+\adjustbox{max width=\textwidth}{%
+\begin{tikzpicture}[
+  line cap=round,
+  solid_body/.style={draw=paperInk, line width=0.9pt},
+  guide/.style={draw=paperGuide, dashed, line width=0.5pt},
+  axisline/.style={draw=paperGuide, dash pattern=on 6pt off 2pt on 1pt off 2pt, line width=0.6pt},
+  flux/.style={-{Stealth[length=4pt]}, draw=paperInk, line width=0.7pt},
+  emphasis/.style={draw=paperAccent, line width=0.6pt},
+  dim/.style={{Stealth[length=3.5pt]}-{Stealth[length=3.5pt]}, draw=paperGuide, line width=0.5pt},
+  lbl/.style={text=paperInk, font=\small},
+  slbl/.style={text=paperInk, font=\footnotesize},
+  acclbl/.style={text=paperAccent, font=\footnotesize}
+]
+
+% ---- 柱体本体（中段折断表示按细长比缩绘） ----
+\fill[paperPanel] (0,-1.5) rectangle (6.2,1.5);
+\fill[paperPanel] (6.2,0) ellipse [x radius=0.45, y radius=1.5];
+\draw[solid_body] (0,1.5) -- (2.85,1.5);
+\draw[solid_body] (3.35,1.5) -- (6.2,1.5);
+\draw[solid_body] (0,-1.5) -- (2.85,-1.5);
+\draw[solid_body] (3.35,-1.5) -- (6.2,-1.5);
+\draw[solid_body] (2.85,1.68) -- (3.05,1.32);
+\draw[solid_body] (3.15,1.68) -- (3.35,1.32);
+\draw[solid_body] (2.85,-1.32) -- (3.05,-1.68);
+\draw[solid_body] (3.15,-1.32) -- (3.35,-1.68);
+
+% ---- 端面：近端整椭圆（可见），远端右半可见、左半虚 ----
+\draw[solid_body] (6.2,0) ++(90:0) arc [start angle=90, end angle=-90, x radius=0.45, y radius=1.5];
+\draw[guide] (6.2,0) ++(90:0) arc [start angle=90, end angle=270, x radius=0.45, y radius=1.5];
+\fill[paperPanel] (0,0) ellipse [x radius=0.45, y radius=1.5];
+\draw[solid_body] (0,0) ellipse [x radius=0.45, y radius=1.5];
+
+% ---- 对称轴与中心条件 ----
+\draw[axisline] (-1.15,0) -- (7.05,0);
+\node[slbl, anchor=west] at (7.1,0) {$r=0$};
+\node[slbl] at (3.1,-0.62) {$\left.\dfrac{\partial T}{\partial r}\right|_{r=0}=\left.\dfrac{\partial C}{\partial r}\right|_{r=0}=0$};
+
+% ---- 半径方向 ----
+\draw[flux] (0,0) -- (0,1.5);
+\node[slbl, anchor=west] at (0.07,0.78) {$r$};
+\node[slbl, anchor=south east] at (-0.06,1.5) {$R$};
+
+% ---- 表面对流：热风向内输热、药材向外散湿 ----
+\foreach \x in {1.1,2.0,4.7,5.6}{
+  \draw[flux] (\x,2.02) -- (\x,1.58);
+  \draw[flux] (\x,-1.58) -- (\x,-2.02);
+}
+\node[slbl] at (3.1,2.28) {热风：$T_{\mathrm{air}}(t)$、$C_{\mathrm{air}}(t)$（附件 1）};
+
+% ---- 两条 Robin 边界条件 ----
+\draw[emphasis] (3.1,2.72) -- (2.0,2.06);
+\node[acclbl] at (3.1,2.96) {$-k\left.\dfrac{\partial T}{\partial r}\right|_{r=R}=h\bigl(T_{s}-T_{\mathrm{air}}\bigr)$};
+\draw[emphasis] (3.1,-2.72) -- (2.0,-2.06);
+\node[acclbl] at (3.1,-2.98) {$-D\left.\dfrac{\partial C}{\partial r}\right|_{r=R}=h_{m}\bigl(C_{s}-C_{\mathrm{air}}\bigr)$};
+
+% ---- 轴向尺寸与细长比 ----
+\draw[guide] (0,-1.5) -- (0,-1.92);
+\draw[guide] (6.2,-1.5) -- (6.2,-1.92);
+\draw[dim] (0,-1.78) -- (6.2,-1.78);
+\node[slbl, fill=paperPanel, inner sep=1pt] at (3.1,-1.78) {$L=25\,\mathrm{cm}$，\ $L/R=12.5$};
+
+\end{tikzpicture}
+}%
+\end{document}

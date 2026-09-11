@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS",
+  "n_checks": 15,
+  "failed": [],
+  "checks": {
+    "p1_C_bounded": true,
+    "p1_center_monotone_down": true,
+    "p1_center_temp_up": true,
+    "p1_measure_sum_unit": true,
+    "p3_C_bounded": true,
+    "p3_center_monotone_down": true,
+    "p3_argmax_center": true,
+    "p3_surface_driest": true,
+    "p3_conservation_tiny": true,
+    "p4_C_bounded": true,
+    "p4_center_monotone_down": true,
+    "p4_argmax_center": true,
+    "p4_R_monotone_down": true,
+    "p4_R_hist_monotone": true,
+    "p4_conservation_tiny": true
+  }
+}

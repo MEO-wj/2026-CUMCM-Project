@@ -1,0 +1,56 @@
+TABLE DATA TRACEABILITY CHECK — PASSED
+生成时间：2026-09-11
+校核方式：确定性脚本逐值比对，43 项全部通过，0 项不一致。
+
+被校核的表（5 张）
+  figures/TABLE_main_results.tex   四问核心求解结果汇总
+  figures/TABLE_data_stats.tex     附件输入数据描述性统计
+  figures/TABLE_properties.tex     三套附录物性模型对照
+  figures/TABLE_verification.tex   数值验证与守恒校核指标
+  figures/TABLE_sensitivity.tex    关键假设扰动对达标时刻的影响
+
+数据来源（表中每个数字都回溯到下列之一，无手工填写）
+  figures/all_results.json         跨问汇总、灵敏度、正交分解
+  figures/problem_1_results.json   P1 锚点、Bessel 解析对照、表面控制体残差
+  figures/problem_2_results.json   P2 锚点、Picard 轨迹、表面控制体残差
+  figures/problem_3_results.json   P3 达标时刻、界面平均对照、空间收敛阶
+  figures/problem_4_results.json   P4 达标时刻、终态半径、不变量
+  figures/_plot_data.json          时间收敛阶（dt=240/120/60 相对 30 s 参考解）
+  user_data/附件1.xlsx              环境时序描述统计（241 行）
+  user_data/附件2.xlsx              半径时序描述统计（145 行）
+  PROBLEM_FACTS.json → code/params.py  物性公式与共用参数
+
+已校核的量（分类计数）
+  结果锚点        8 项  P1/P2 中心与表面终值、P3/P4 达标时刻、P3 表面终值、P4 终态半径
+  输出规模        4 项  1801 / 10801 / 3437 / 3055 行
+  描述统计        9 项  样本数、极值、均值、中位数、样本标准差（n-1 自由度）
+  守恒与验证     10 项  四问守恒残差、两问表面控制体残差、Bessel L2 与最大误差、
+                       BDF 交叉校核、Picard 终残差
+  收敛阶          2 项  空间 1.925、时间 1.215
+  灵敏度绝对值    8 项  H3 四情景、H4 潜热、H7 固定域、M3 算术、M3 调和
+  灵敏度百分比    3 项  由绝对值现场重算，未独立填写（+153.95% / +874.05% / -1.80%）
+
+口径说明
+  1. 物性参数一律取 PROBLEM_FACTS.json（OCR SHA256 已核验）经 code/params.py 暴露的值。
+     MODELING_REPORT.md §5.2/§9.1 的附录3 抄写有误（误填了类附录4 的
+     760+90C / 0.18+0.12 / e^{-0.89/C}），本组表格不采用该处数值；
+     报告自身的 CK9 锚点（D 初=5.6417e-9、终=8.0012e-10）与 PROBLEM_FACTS.json
+     的正确式复算一致，可作为交叉印证。
+  2. 灵敏度相对变化按 (扰动值-基准值)/基准值 现场计算，基准为 hold 外推口径
+     （P3 = 57.262062 h，P4 = 50.897541 h）。
+  3. TABLE_properties.tex 中标注"随工况"的单元格表示该量依赖瞬时 (C,T)，
+     不存在单一常数，未以任何代表值冒充确定量。
+  4. 问题1、问题2 时程由题面给定（1800 s、3 h），终点含水率仍高于阈值 0.15，
+     故 t* 一栏如实标注"预热段，不反演"与"未达标"，不外推臆造。
+
+结论：五张表内的全部数值均可由上列真实数据文件复现，无硬编码、无估读、无占位。
+
+--- TABLE-CHECK MODE 第 1/1 轮独立复核（2026-09-11）---
+按 TABLE_DATA_CHECKLIST.md 重新逐表逐值核对，结论一致：5 张表全部通过，无编造项。
+额外确认的三处「不在 JSON 扁平清单里」的数字，已回溯到各自合法来源：
+  - TABLE_data_stats 全部统计量 → 由 user_data/附件1.xlsx、附件2.xlsx 现场复算，逐值吻合
+  - TABLE_main_results 问题4 表面 0.0525 → result4.xlsx「药材表面」列末行（表头已声明该来源）
+  - TABLE_properties D 锚点 5.642e-9 / 8.001e-10 → 由附录3 公式复算得 5.6417e-9 / 8.0012e-10
+  - TABLE_sensitivity 潜热 L=2.4 MJ/kg → code/params.py LATENT_SCENARIO=2.4e6（题面未给，表注已声明）
+  - TABLE_verification 时间收敛阶 1.215 → figures/_plot_data.json .temporal_convergence.observed_order_p
+本轮未修改任何 TABLE、JSON、图片、画图脚本或 latex_includes.tex。详见 TABLE_DATA_CHECK_REPORT.md。

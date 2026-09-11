@@ -1,0 +1,91 @@
+% 图契约
+% purpose: 读者应能回答——为何同一材料壳层的 \xi 不随收缩改变，以及两项为何逐点抵消
+% topology: geometry
+% reading_direction: coordinate-based
+% node_roles: 横截面、材料壳层（两时刻）、固相位移、干基不变量
+% edge_roles: 固相内移、半径对应、推导结论
+% paper_context: 问题四动边界推导一节，紧随坐标映射示意，栏宽插入
+% visual_encoding: 位置承担收缩，填充区分两时刻壳层，线型区分实体/收缩后边界，强调色仅标注结论
+% style_family: G2
+% annotation_policy: minimal
+% result_policy: symbolic
+% final_width: column
+% print_mode: both
+% MH-TIKZ-ABSOLUTE-OK: 坐标即柱体横截面的真实半径位置
+\documentclass[border=3pt,11pt]{standalone}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc}
+
+\definecolor{paperInk}{HTML}{111111}
+\definecolor{paperAccent}{HTML}{3B549C}
+\definecolor{paperGuide}{HTML}{4A4A4A}
+\definecolor{paperPanel}{HTML}{E4E9F5}
+\definecolor{paperCell}{HTML}{C6D0E8}
+
+\begin{document}
+\adjustbox{max width=\textwidth}{%
+\begin{tikzpicture}[
+  line cap=round,
+  solid_body/.style={draw=paperInk, line width=0.9pt},
+  thinline/.style={draw=paperInk, line width=0.55pt},
+  guide/.style={draw=paperGuide, dashed, line width=0.5pt},
+  emphasis/.style={draw=paperAccent, dash pattern=on 3pt off 1.6pt, line width=0.9pt},
+  flux/.style={-{Stealth[length=4.5pt]}, draw=paperInk, line width=0.8pt},
+  slbl/.style={text=paperInk, font=\footnotesize},
+  acclbl/.style={text=paperAccent, font=\footnotesize}
+]
+
+% ================ 时刻 t 的材料壳层 \xi\in[0.6,0.8]，R(t)=3.0 ================
+\fill[paperPanel] (2.4,0) arc[start angle=0, end angle=180, radius=2.4]
+  -- (-1.8,0) arc[start angle=180, end angle=0, radius=1.8] -- cycle;
+\draw[thinline] (2.4,0) arc[start angle=0, end angle=180, radius=2.4];
+\draw[thinline] (1.8,0) arc[start angle=0, end angle=180, radius=1.8];
+
+% ================ 时刻 t+\Delta t 的同一壳层，R 缩至 2.1 ================
+\fill[paperCell] (1.68,0) arc[start angle=0, end angle=180, radius=1.68]
+  -- (-1.26,0) arc[start angle=180, end angle=0, radius=1.26] -- cycle;
+\draw[emphasis] (1.68,0) arc[start angle=0, end angle=180, radius=1.68];
+\draw[emphasis] (1.26,0) arc[start angle=0, end angle=180, radius=1.26];
+
+% ================ 外表面：两时刻 ================
+\draw[solid_body] (3.0,0) arc[start angle=0, end angle=180, radius=3.0];
+\draw[emphasis] (2.1,0) arc[start angle=0, end angle=180, radius=2.1];
+\draw[thinline] (-3.4,0) -- (3.4,0);
+
+% ================ 固相内移 ================
+\draw[flux] (1.05,1.818) -- (0.735,1.273);
+\draw[flux] (-1.05,1.818) -- (-0.735,1.273);
+
+% ================ 两时刻壳层标记 ================
+\node[slbl] at (1.818,1.05) {$t$};
+\node[slbl] at (-1.273,0.735) {$t+\Delta t$};
+
+% ================ 半径标注（左侧） ================
+\draw[guide] (-3.0,0) -- (-3.0,-0.22);
+\node[slbl] at (-3.0,-0.38) {$R(t)$};
+\draw[guide] (-2.1,0) -- (-2.1,-0.88);
+\node[slbl] at (-1.85,-1.05) {$R(t+\Delta t)$};
+
+% ================ 物质坐标标注（右侧） ================
+\draw[guide] (2.4,0) -- (2.4,-0.22);
+\node[slbl] at (2.4,-0.38) {$\xi=0.8$};
+\draw[guide] (1.8,0) -- (1.8,-0.88);
+\node[slbl] at (1.8,-1.05) {$\xi=0.6$};
+
+% ================ 侧向注解 ================
+\node[slbl, align=center] at (-3.4,2.35) {固相内移\\$v_{s}<0$};
+\node[slbl] at (3.55,2.35) {$\xi$ 不随收缩改变};
+
+% ================ 干基不变量与抵消结论 ================
+\node[slbl] at (0,3.52)
+  {壳层干基质量 $\mathrm{d}m_{s}=\rho_{s}\,2\pi rL\,\mathrm{d}r$ 沿运动不变};
+
+\node[acclbl, align=center] at (0,-2.05)
+  {$\Rightarrow\ \rho_{s}R^{2}=$ 常数，\ $\xi=r/R(t)$ 为物质坐标\\
+   网格漂移项与固相对流项逐点抵消};
+
+\end{tikzpicture}
+}%
+\end{document}

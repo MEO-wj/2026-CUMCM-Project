@@ -1,0 +1,37 @@
+% 表：数值验证与守恒校核指标
+% 数据来源：figures/all_results.json, problem_1..4_results.json, figures/_plot_data.json
+\begin{table}[H]
+  \centering
+  \caption{数值验证与守恒校核指标}
+  \label{tab:verification}
+  \small
+  \begin{tabular}{llll}
+    \toprule
+    检验类别 & 指标 & 实测值 & 判定 \\
+    \midrule
+    质量守恒 & 问题1 全域残差              & $5.61{\times}10^{-16}$ & 通过 \\
+    质量守恒 & 问题2 全域残差              & $4.80{\times}10^{-16}$ & 通过 \\
+    质量守恒 & 问题3 全域残差              & $4.38{\times}10^{-16}$ & 通过 \\
+    质量守恒 & 问题4 全域残差              & $3.26{\times}10^{-16}$ & 通过 \\
+    控制体守恒 & 问题1 表面控制体残差       & $4.10{\times}10^{-14}$ & 通过 \\
+    控制体守恒 & 问题2 表面控制体残差       & $3.37{\times}10^{-13}$ & 通过 \\
+    \midrule
+    解析对照 & Bessel 级数解 $L_2$ 相对误差 & $2.84{\times}10^{-4}$  & 通过 \\
+    解析对照 & Bessel 级数解最大绝对误差    & $9.80{\times}10^{-4}$  & 通过 \\
+    独立算法 & BDF 交叉校核最大偏差         & $5.77{\times}10^{-4}$  & 通过 \\
+    \midrule
+    非线性迭代 & Picard 终残差上界          & $9.998{\times}10^{-12}$ & 通过 \\
+    空间收敛 & Richardson 观测阶 $p$        & 1.925                  & 近二阶 \\
+    时间收敛 & 观测阶 $p$（$\Delta t$ 加密） & 1.215                  & 超一阶 \\
+    离散测度 & $\sum_j w_j - \pi R_0^2$ 误差 & 0.000                 & 精确 \\
+    插值一致性 & $R(t)$ PCHIP 最大相对误差   & 0.000                  & 精确 \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{2pt}
+  \parbox{0.94\linewidth}{\footnotesize
+  注：守恒残差定义为 $\big|\Delta\!\int C\,\mathrm{d}V-\int\! q_s\,\mathrm{d}t\big|/\int C_0\mathrm{d}V$，已达双精度舍入量级（$\sim10^{-16}$）。
+  空间收敛以 $M=20/40/80$ 三套网格算得，时间收敛以
+  $\Delta t=240/120/60$ s 相对 $30$ s 参考解算得；后者为向后欧拉，
+  理论一阶，观测 1.215 说明主算步长 60 s 已落在渐近区。}
+\end{table}

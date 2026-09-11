@@ -1,0 +1,97 @@
+% 图契约
+% purpose: 读者应能回答——收缩物理域如何映射为固定计算域，映射后方程多出什么、少了什么
+% topology: geometry
+% reading_direction: left-to-right
+% node_roles: 物理域、动边界、固定计算域、映射关系
+% edge_roles: 坐标映射、同时刻对应、边界轨迹
+% paper_context: 问题四动边界处理一节，栏宽插入
+% visual_encoding: 左右两域由坐标承担，线型区分动边界与固定网格，强调色仅标注映射与加速因子
+% style_family: G2
+% annotation_policy: minimal
+% result_policy: symbolic
+% final_width: column
+% print_mode: both
+% MH-TIKZ-ABSOLUTE-OK: 坐标即 r--t 与 \xi--t 平面的真实位置
+\documentclass[border=3pt,11pt]{standalone}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc}
+
+\definecolor{paperInk}{HTML}{111111}
+\definecolor{paperAccent}{HTML}{3B549C}
+\definecolor{paperGuide}{HTML}{4A4A4A}
+\definecolor{paperPanel}{HTML}{F2F4F9}
+
+\begin{document}
+\adjustbox{max width=\textwidth}{%
+\begin{tikzpicture}[
+  line cap=round,
+  ax/.style={-{Stealth[length=4pt]}, draw=paperInk, line width=0.7pt},
+  solid_body/.style={draw=paperInk, line width=0.9pt},
+  guide/.style={draw=paperGuide, dashed, line width=0.5pt},
+  emphasis/.style={draw=paperAccent, line width=1.0pt},
+  maparrow/.style={-{Stealth[length=5pt]}, draw=paperAccent, line width=0.9pt},
+  meshline/.style={draw=paperGuide, line width=0.45pt},
+  slbl/.style={text=paperInk, font=\footnotesize},
+  acclbl/.style={text=paperAccent, font=\footnotesize}
+]
+
+% ================== 左：物理域 r--t，边界随时间收缩 ==================
+\fill[paperPanel]
+  (0,0) -- (3.2,0) .. controls (2.7,1.2) and (2.15,2.1) .. (1.9,3.6) -- (0,3.6) -- cycle;
+\draw[emphasis]
+  (3.2,0) .. controls (2.7,1.2) and (2.15,2.1) .. (1.9,3.6);
+\draw[ax] (0,0) -- (3.9,0);
+\draw[ax] (0,0) -- (0,4.1);
+\node[slbl] at (4.05,-0.02) {$r$};
+\node[slbl] at (-0.02,4.32) {$t$};
+\node[slbl] at (-0.34,0) {$0$};
+
+% 动边界端点与两个时刻
+\draw[guide] (0,1.2) -- (2.68,1.2);
+\draw[guide] (0,3.6) -- (1.9,3.6);
+\node[slbl] at (-0.46,1.2) {$t_1$};
+\node[slbl] at (-0.46,3.6) {$t_2$};
+\fill[paperAccent] (2.68,1.2) circle (1.5pt);
+\fill[paperAccent] (1.9,3.6) circle (1.5pt);
+\node[slbl] at (3.28,-0.4) {$R_0$};
+\node[acclbl] at (2.55,3.98) {动边界 $r=R(t)$};
+\node[slbl] at (1.24,0.66) {物理域 $0\le r\le R(t)$};
+
+% ================== 中：映射箭头 ==================
+\draw[maparrow] (4.42,1.9) -- (5.66,1.9);
+\node[acclbl] at (5.04,2.24) {$\xi=r/R(t)$};
+\node[slbl] at (5.04,1.52) {干基质量坐标};
+
+% ================== 右：固定计算域 \xi--t ==================
+\fill[paperPanel] (6.3,0) rectangle (8.7,3.6);
+\draw[solid_body] (6.3,0) rectangle (8.7,3.6);
+\foreach \x in {6.7,7.1,7.5,7.9,8.3}{ \draw[meshline] (\x,0) -- (\x,3.6); }
+\draw[ax] (6.3,0) -- (9.2,0);
+\draw[ax] (6.3,0) -- (6.3,4.1);
+\node[slbl] at (9.35,-0.02) {$\xi$};
+\node[slbl] at (6.28,4.32) {$t$};
+\node[slbl] at (6.3,-0.4) {$0$};
+\node[slbl] at (8.7,-0.4) {$1$};
+\draw[emphasis] (8.7,0) -- (8.7,3.6);
+\node[acclbl] at (8.7,3.98) {$\xi=1$ 固定};
+\node[slbl] at (7.5,1.86) {网格不动};
+
+% 同时刻对应
+\fill[paperAccent] (8.7,1.2) circle (1.5pt);
+\fill[paperAccent] (8.7,3.6) circle (1.5pt);
+
+% ================== 底：映射后方程 ==================
+\node[slbl] at (4.7,-1.34)
+  {$\dfrac{\partial C}{\partial t}
+    =\dfrac{1}{R(t)^{2}}\cdot\dfrac{1}{\xi}\,
+     \dfrac{\partial}{\partial\xi}\!\left(\xi D\,\dfrac{\partial C}{\partial\xi}\right)$};
+
+\node[acclbl, align=center] at (4.7,-2.26)
+  {$\rho_{s}R^{2}$ 不变 $\Rightarrow$ 网格漂移项与固相对流项精确抵消\\
+   仅余扩散加速因子 $1/R(t)^{2}$};
+
+\end{tikzpicture}
+}%
+\end{document}
