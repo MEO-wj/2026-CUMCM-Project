@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "case_id": "MMS_Q23_fixed",
+      "family": "Q23",
+      "mms": true,
+      "geometry": "fixed",
+      "overrides": {}
+    },
+    {
+      "case_id": "MMS_Q4_moving",
+      "family": "Q4",
+      "mms": true,
+      "geometry": "shrink",
+      "overrides": {}
+    }
+  ]
+}
