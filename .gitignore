@@ -2,3 +2,16 @@
 !docs/本地A题资料/.DS_Store
 !docs/本地A题资料/附件/.DS_Store
 !A题全部/**/.DS_Store
+
+# 本地审查与生成过程产物
+tmp/
+**/__pycache__/
+*.pyc
+
+# 外部参考论文与本地输入论文
+docs/参考论文/
+docs/本地A题资料/
+docs/基于守恒型有限体积法与动边界模型的药材热风烘干问题研究.pdf
+
+# 未纳入正式成果的候选图生成脚本
+scripts/generate_academic_candidates.py
