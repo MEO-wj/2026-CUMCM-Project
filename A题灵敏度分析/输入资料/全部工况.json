@@ -1,0 +1,1298 @@
+{
+  "cases": [
+    {
+      "case_id": "Q1_baseline",
+      "family": "Q1",
+      "category": "baseline",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q1_A_scale_minus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "A_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "A_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q1_A_scale_plus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "A_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "A_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q1_a_scale_minus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "a_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q1_a_scale_plus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "a_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q1_h_scale_minus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "h_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "h_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q1_h_scale_plus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "h_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "h_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q1_hm_scale_minus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "hm_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "hm_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q1_hm_scale_plus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "hm_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "hm_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q1_k_scale_minus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "k_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "k_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q1_k_scale_plus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "k_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "k_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q1_b_scale_minus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "b_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "b_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q1_b_scale_plus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "b_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "b_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q1_C0_scale_minus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "C0_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q1_C0_scale_plus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "C0_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q1_R0_scale_minus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "R0_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "R0_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q1_R0_scale_plus1pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "R0_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "R0_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q23_baseline",
+      "family": "Q23",
+      "category": "baseline",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q23_A_scale_minus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "A_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "A_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q23_A_scale_plus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "A_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "A_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q23_a_scale_minus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "a_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q23_a_scale_plus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "a_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q23_h_scale_minus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "h_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "h_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q23_h_scale_plus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "h_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "h_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q23_hm_scale_minus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "hm_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "hm_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q23_hm_scale_plus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "hm_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "hm_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q23_k_scale_minus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "k_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "k_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q23_k_scale_plus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "k_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "k_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q23_b_scale_minus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "b_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "b_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q23_b_scale_plus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "b_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "b_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q23_C0_scale_minus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "C0_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q23_C0_scale_plus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "C0_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q23_B_scale_minus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "B_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "B_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q23_B_scale_plus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "B_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "B_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q23_R0_scale_minus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "R0_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "R0_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q23_R0_scale_plus1pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "R0_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "R0_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q4_baseline",
+      "family": "Q4",
+      "category": "baseline",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_A_scale_minus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "A_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "A_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q4_A_scale_plus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "A_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "A_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q4_a_scale_minus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "a_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q4_a_scale_plus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "a_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q4_h_scale_minus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "h_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "h_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q4_h_scale_plus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "h_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "h_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q4_hm_scale_minus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "hm_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "hm_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q4_hm_scale_plus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "hm_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "hm_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q4_k_scale_minus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "k_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "k_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q4_k_scale_plus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "k_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "k_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q4_b_scale_minus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "b_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "b_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q4_b_scale_plus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "b_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "b_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q4_C0_scale_minus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "C0_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q4_C0_scale_plus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "C0_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q4_B_scale_minus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "B_scale",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "B_scale": 0.99
+      }
+    },
+    {
+      "case_id": "Q4_B_scale_plus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "B_scale",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "B_scale": 1.01
+      }
+    },
+    {
+      "case_id": "Q4_shrink_amplitude_eta_minus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "shrink_amplitude_eta",
+      "relative_perturbation": -0.01,
+      "overrides": {
+        "shrink_amplitude_eta": 0.99
+      }
+    },
+    {
+      "case_id": "Q4_shrink_amplitude_eta_plus1pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "shrink_amplitude_eta",
+      "relative_perturbation": 0.01,
+      "overrides": {
+        "shrink_amplitude_eta": 1.01
+      }
+    },
+    {
+      "case_id": "Q1_R0_scale_minus0p5pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "R0_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "R0_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q1_R0_scale_plus0p5pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "R0_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "R0_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q1_b_scale_minus0p5pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "b_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "b_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q1_b_scale_plus0p5pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "b_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "b_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q1_C0_scale_minus0p5pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "C0_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q1_C0_scale_plus0p5pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "C0_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q1_hm_scale_minus0p5pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "hm_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "hm_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q1_hm_scale_plus0p5pct",
+      "family": "Q1",
+      "category": "local_sensitivity",
+      "baseline_id": "Q1_baseline",
+      "factor": "hm_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "hm_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q23_B_scale_minus0p5pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "B_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "B_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q23_B_scale_plus0p5pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "B_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "B_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q23_a_scale_minus0p5pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "a_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q23_a_scale_plus0p5pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "a_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q23_R0_scale_minus0p5pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "R0_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "R0_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q23_R0_scale_plus0p5pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "R0_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "R0_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q23_C0_scale_minus0p5pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "C0_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q23_C0_scale_plus0p5pct",
+      "family": "Q23",
+      "category": "local_sensitivity",
+      "baseline_id": "Q23_baseline",
+      "factor": "C0_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "C0_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q4_B_scale_minus0p5pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "B_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "B_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q4_B_scale_plus0p5pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "B_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "B_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q4_shrink_amplitude_eta_minus0p5pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "shrink_amplitude_eta",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "shrink_amplitude_eta": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q4_shrink_amplitude_eta_plus0p5pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "shrink_amplitude_eta",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "shrink_amplitude_eta": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q4_a_scale_minus0p5pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "a_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q4_a_scale_plus0p5pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "a_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "a_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q4_A_scale_minus0p5pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "A_scale",
+      "relative_perturbation": -0.005,
+      "overrides": {
+        "A_scale": 0.995
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "Q4_A_scale_plus0p5pct",
+      "family": "Q4",
+      "category": "local_sensitivity",
+      "baseline_id": "Q4_baseline",
+      "factor": "A_scale",
+      "relative_perturbation": 0.005,
+      "overrides": {
+        "A_scale": 1.005
+      },
+      "selection_rule": "Plan 6.2, from identity-verified first-round fixed-xi and event responses."
+    },
+    {
+      "case_id": "G3S",
+      "family": "Q23",
+      "geometry": "shrink",
+      "category": "material_geometry_counterfactual",
+      "overrides": {}
+    },
+    {
+      "case_id": "G4F",
+      "family": "Q4",
+      "geometry": "fixed",
+      "end_limit_s": 864000,
+      "category": "material_geometry_counterfactual",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q23_tail_T_minus",
+      "family": "Q23",
+      "category": "independent_platform_scenario",
+      "tail_T_delta": -0.5,
+      "overrides": {}
+    },
+    {
+      "case_id": "Q23_tail_T_plus",
+      "family": "Q23",
+      "category": "independent_platform_scenario",
+      "tail_T_delta": 0.5,
+      "overrides": {}
+    },
+    {
+      "case_id": "Q23_tail_C_minus",
+      "family": "Q23",
+      "category": "independent_platform_scenario",
+      "tail_C_delta": -0.0005,
+      "overrides": {}
+    },
+    {
+      "case_id": "Q23_tail_C_plus",
+      "family": "Q23",
+      "category": "independent_platform_scenario",
+      "tail_C_delta": 0.0005,
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_tail_T_minus",
+      "family": "Q4",
+      "category": "independent_platform_scenario",
+      "tail_T_delta": -0.5,
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_tail_T_plus",
+      "family": "Q4",
+      "category": "independent_platform_scenario",
+      "tail_T_delta": 0.5,
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_tail_C_minus",
+      "family": "Q4",
+      "category": "independent_platform_scenario",
+      "tail_C_delta": -0.0005,
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_tail_C_plus",
+      "family": "Q4",
+      "category": "independent_platform_scenario",
+      "tail_C_delta": 0.0005,
+      "overrides": {}
+    },
+    {
+      "case_id": "Q23_E1",
+      "family": "Q23",
+      "category": "environment_scenario",
+      "environment_tail": "E1",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q23_E2",
+      "family": "Q23",
+      "category": "environment_scenario",
+      "environment_tail": "E2",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q23_E3",
+      "family": "Q23",
+      "category": "environment_scenario",
+      "environment_tail": "E3",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_E1",
+      "family": "Q4",
+      "category": "environment_scenario",
+      "environment_tail": "E1",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_E2",
+      "family": "Q4",
+      "category": "environment_scenario",
+      "environment_tail": "E2",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_E3",
+      "family": "Q4",
+      "category": "environment_scenario",
+      "environment_tail": "E3",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_radius_linear",
+      "family": "Q4",
+      "category": "radius_interpolation_scenario",
+      "radius_method": "linear",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q23_interaction_A_scale_hm_scale_minus_minus",
+      "family": "Q23",
+      "category": "interaction",
+      "factors": [
+        "A_scale",
+        "hm_scale"
+      ],
+      "relative_levels": [
+        -0.05,
+        -0.05
+      ],
+      "overrides": {
+        "A_scale": 0.95,
+        "hm_scale": 0.95
+      }
+    },
+    {
+      "case_id": "Q23_interaction_A_scale_hm_scale_minus_plus",
+      "family": "Q23",
+      "category": "interaction",
+      "factors": [
+        "A_scale",
+        "hm_scale"
+      ],
+      "relative_levels": [
+        -0.05,
+        0.05
+      ],
+      "overrides": {
+        "A_scale": 0.95,
+        "hm_scale": 1.05
+      }
+    },
+    {
+      "case_id": "Q23_interaction_A_scale_hm_scale_plus_minus",
+      "family": "Q23",
+      "category": "interaction",
+      "factors": [
+        "A_scale",
+        "hm_scale"
+      ],
+      "relative_levels": [
+        0.05,
+        -0.05
+      ],
+      "overrides": {
+        "A_scale": 1.05,
+        "hm_scale": 0.95
+      }
+    },
+    {
+      "case_id": "Q23_interaction_A_scale_hm_scale_plus_plus",
+      "family": "Q23",
+      "category": "interaction",
+      "factors": [
+        "A_scale",
+        "hm_scale"
+      ],
+      "relative_levels": [
+        0.05,
+        0.05
+      ],
+      "overrides": {
+        "A_scale": 1.05,
+        "hm_scale": 1.05
+      }
+    },
+    {
+      "case_id": "Q23_interaction_a_scale_C0_scale_minus_minus",
+      "family": "Q23",
+      "category": "interaction",
+      "factors": [
+        "a_scale",
+        "C0_scale"
+      ],
+      "relative_levels": [
+        -0.05,
+        -0.05
+      ],
+      "overrides": {
+        "a_scale": 0.95,
+        "C0_scale": 0.95
+      }
+    },
+    {
+      "case_id": "Q23_interaction_a_scale_C0_scale_minus_plus",
+      "family": "Q23",
+      "category": "interaction",
+      "factors": [
+        "a_scale",
+        "C0_scale"
+      ],
+      "relative_levels": [
+        -0.05,
+        0.05
+      ],
+      "overrides": {
+        "a_scale": 0.95,
+        "C0_scale": 1.05
+      }
+    },
+    {
+      "case_id": "Q23_interaction_a_scale_C0_scale_plus_minus",
+      "family": "Q23",
+      "category": "interaction",
+      "factors": [
+        "a_scale",
+        "C0_scale"
+      ],
+      "relative_levels": [
+        0.05,
+        -0.05
+      ],
+      "overrides": {
+        "a_scale": 1.05,
+        "C0_scale": 0.95
+      }
+    },
+    {
+      "case_id": "Q23_interaction_a_scale_C0_scale_plus_plus",
+      "family": "Q23",
+      "category": "interaction",
+      "factors": [
+        "a_scale",
+        "C0_scale"
+      ],
+      "relative_levels": [
+        0.05,
+        0.05
+      ],
+      "overrides": {
+        "a_scale": 1.05,
+        "C0_scale": 1.05
+      }
+    },
+    {
+      "case_id": "Q4_interaction_A_scale_shrink_amplitude_eta_minus_minus",
+      "family": "Q4",
+      "category": "interaction",
+      "factors": [
+        "A_scale",
+        "shrink_amplitude_eta"
+      ],
+      "relative_levels": [
+        -0.05,
+        -0.05
+      ],
+      "overrides": {
+        "A_scale": 0.95,
+        "shrink_amplitude_eta": 0.95
+      }
+    },
+    {
+      "case_id": "Q4_interaction_A_scale_shrink_amplitude_eta_minus_plus",
+      "family": "Q4",
+      "category": "interaction",
+      "factors": [
+        "A_scale",
+        "shrink_amplitude_eta"
+      ],
+      "relative_levels": [
+        -0.05,
+        0.05
+      ],
+      "overrides": {
+        "A_scale": 0.95,
+        "shrink_amplitude_eta": 1.05
+      }
+    },
+    {
+      "case_id": "Q4_interaction_A_scale_shrink_amplitude_eta_plus_minus",
+      "family": "Q4",
+      "category": "interaction",
+      "factors": [
+        "A_scale",
+        "shrink_amplitude_eta"
+      ],
+      "relative_levels": [
+        0.05,
+        -0.05
+      ],
+      "overrides": {
+        "A_scale": 1.05,
+        "shrink_amplitude_eta": 0.95
+      }
+    },
+    {
+      "case_id": "Q4_interaction_A_scale_shrink_amplitude_eta_plus_plus",
+      "family": "Q4",
+      "category": "interaction",
+      "factors": [
+        "A_scale",
+        "shrink_amplitude_eta"
+      ],
+      "relative_levels": [
+        0.05,
+        0.05
+      ],
+      "overrides": {
+        "A_scale": 1.05,
+        "shrink_amplitude_eta": 1.05
+      }
+    },
+    {
+      "case_id": "Q4_interaction_a_scale_hm_scale_minus_minus",
+      "family": "Q4",
+      "category": "interaction",
+      "factors": [
+        "a_scale",
+        "hm_scale"
+      ],
+      "relative_levels": [
+        -0.05,
+        -0.05
+      ],
+      "overrides": {
+        "a_scale": 0.95,
+        "hm_scale": 0.95
+      }
+    },
+    {
+      "case_id": "Q4_interaction_a_scale_hm_scale_minus_plus",
+      "family": "Q4",
+      "category": "interaction",
+      "factors": [
+        "a_scale",
+        "hm_scale"
+      ],
+      "relative_levels": [
+        -0.05,
+        0.05
+      ],
+      "overrides": {
+        "a_scale": 0.95,
+        "hm_scale": 1.05
+      }
+    },
+    {
+      "case_id": "Q4_interaction_a_scale_hm_scale_plus_minus",
+      "family": "Q4",
+      "category": "interaction",
+      "factors": [
+        "a_scale",
+        "hm_scale"
+      ],
+      "relative_levels": [
+        0.05,
+        -0.05
+      ],
+      "overrides": {
+        "a_scale": 1.05,
+        "hm_scale": 0.95
+      }
+    },
+    {
+      "case_id": "Q4_interaction_a_scale_hm_scale_plus_plus",
+      "family": "Q4",
+      "category": "interaction",
+      "factors": [
+        "a_scale",
+        "hm_scale"
+      ],
+      "relative_levels": [
+        0.05,
+        0.05
+      ],
+      "overrides": {
+        "a_scale": 1.05,
+        "hm_scale": 1.05
+      }
+    },
+    {
+      "case_id": "Q4_E1_radius_linear",
+      "family": "Q4",
+      "category": "environment_radius_interaction_extension",
+      "environment_tail": "E1",
+      "radius_method": "linear",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_E2_radius_linear",
+      "family": "Q4",
+      "category": "environment_radius_interaction_extension",
+      "environment_tail": "E2",
+      "radius_method": "linear",
+      "overrides": {}
+    },
+    {
+      "case_id": "Q4_E3_radius_linear",
+      "family": "Q4",
+      "category": "environment_radius_interaction_extension",
+      "environment_tail": "E3",
+      "radius_method": "linear",
+      "overrides": {}
+    }
+  ]
+}

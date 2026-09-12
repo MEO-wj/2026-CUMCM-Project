@@ -1,0 +1,99 @@
+{
+  "target_id": "coarse_window_v1",
+  "status": "frozen_pilot_parameters",
+  "dtype": "float64",
+  "device": "cpu",
+  "threads": 2,
+  "hidden_layers": 4,
+  "width": 64,
+  "fourier_frequencies": 32,
+  "fourier_sigmas": [
+    1.0,
+    4.0
+  ],
+  "time_feature": "log1p",
+  "early_time_scale_s": 1.0,
+  "raw_coordinates": [
+    "x",
+    "t/window_s"
+  ],
+  "windows_s": {
+    "MMS": 14400.0,
+    "Q4": 21600.0
+  },
+  "training_seconds": {
+    "MMS": 360.0,
+    "Q4": 480.0
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "training_interior_points": 1024,
+  "training_boundary_points": 128,
+  "training_initial_points": 128,
+  "axis_points": 32,
+  "dev_interior_points": 1024,
+  "dev_boundary_points": 128,
+  "dev_initial_points": 128,
+  "holdout_interior_points": 4096,
+  "holdout_boundary_points": 512,
+  "minimum_positive_time_s": 0.001,
+  "resample_every": 100,
+  "checkpoint_every": 50,
+  "adam_learning_rate": 0.001,
+  "adam_time_fraction": 0.75,
+  "lbfgs_max_iter_per_step": 10,
+  "field_scales_C_T": [
+    2.55,
+    22.0
+  ],
+  "score_x_count": 201,
+  "score_time_step_s": 60.0,
+  "score_extra_times_s": [
+    1.0,
+    5.0,
+    10.0,
+    30.0,
+    100.0
+  ],
+  "Q4_switch_neighbors_s": [
+    14399.0,
+    14401.0
+  ],
+  "event_spatial_counts": [
+    201,
+    401,
+    801
+  ],
+  "thresholds": {
+    "normalized_L2_C_T": [
+      0.005,
+      0.005
+    ],
+    "normalized_Linf_C_T": [
+      0.01,
+      0.01
+    ],
+    "normalized_IC_Linf_C_T": [
+      0.001,
+      0.001
+    ],
+    "residual_rmse": 0.01,
+    "residual_max": 0.1,
+    "MMS_event_error_s": 60.0,
+    "MMS_event_spatial_stability_s": 6.0
+  },
+  "evaluation_seconds": 420.0,
+  "claims_not_tested": [
+    "real_drying_event",
+    "four_decimal_fields",
+    "parameter_derivatives",
+    "interactions"
+  ],
+  "input_workbooks": [
+    "附件1.xlsx",
+    "附件2.xlsx"
+  ]
+}
