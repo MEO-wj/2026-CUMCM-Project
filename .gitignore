@@ -15,3 +15,8 @@ docs/基于守恒型有限体积法与动边界模型的药材热风烘干问题
 
 # 未纳入正式成果的候选图生成脚本
 scripts/generate_academic_candidates.py
+
+# 学术图像临时稿（正式图使用 00–16 命名）
+results/figures/*_样稿.*
+results/figures/*_draft.*
+results/figures/*_preview.*
